@@ -1,0 +1,11 @@
+{
+    "version": "3.4.0",
+    "app": {
+        "name": "iching",
+        "package_name": "com.example.iching"
+    },
+    "main": {},
+    "experimental": {
+        "load_packages": true
+    }
+}

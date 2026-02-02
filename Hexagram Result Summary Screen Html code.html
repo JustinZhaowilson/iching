@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Hexagram Result Summary</title>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "primary": "#195de6",
+                        "background-light": "#f6f6f8",
+                        "background-dark": "#111621",
+                    },
+                    fontFamily: {
+                        "display": ["Manrope", "sans-serif"]
+                    },
+                    borderRadius: {"DEFAULT": "0.5rem", "lg": "1rem", "xl": "1.5rem", "full": "9999px"},
+                },
+            },
+        }
+    </script>
+<style>
+        .hex-line {
+            height: 12px;
+            width: 100%;
+            border-radius: 2px;
+            margin-bottom: 6px;
+        }
+        .hex-line-yin {
+            display: flex;
+            gap: 12px;
+        }
+        .hex-line-yin span {
+            flex: 1;
+            height: 100%;
+            border-radius: 2px;
+        }
+    </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head>
+<body class="bg-background-light dark:bg-background-dark font-display">
+<div class="relative flex h-full min-h-screen w-full flex-col overflow-x-hidden">
+<!-- Top App Bar -->
+<div class="flex items-center bg-background-light dark:bg-background-dark p-4 pb-2 justify-between sticky top-0 z-10 border-b border-gray-200 dark:border-gray-800">
+<div class="text-gray-900 dark:text-white flex size-12 shrink-0 items-center cursor-pointer">
+<span class="material-symbols-outlined text-[24px]">arrow_back_ios</span>
+</div>
+<h2 class="text-gray-900 dark:text-white text-lg font-bold leading-tight tracking-[-0.015em] flex-1 text-center">Reading Result</h2>
+<div class="flex w-12 items-center justify-end cursor-pointer">
+<span class="material-symbols-outlined text-gray-500 dark:text-[#93a5c8]">bookmark</span>
+</div>
+</div>
+<!-- Hexagram Visualizer Section -->
+<div class="flex flex-col items-center justify-center py-8 px-4 bg-background-light dark:bg-background-dark">
+<div class="flex w-full max-w-md justify-between items-start gap-4">
+<!-- Primary Hexagram -->
+<div class="flex flex-col items-center flex-1">
+<span class="text-gray-500 dark:text-[#93a5c8] text-sm font-medium mb-4 uppercase tracking-wider">Present</span>
+<!-- Hexagram 4: Youthful Folly -->
+<!-- Top Trigram: Mountain (Gen) -->
+<!-- Bottom Trigram: Water (Kan) -->
+<div class="w-full max-w-[120px] flex flex-col-reverse gap-1.5 p-4 rounded-xl bg-white dark:bg-[#1a2232] shadow-sm">
+<!-- Line 6 (Top) - Solid -->
+<div class="hex-line bg-gray-800 dark:bg-gray-300"></div>
+<!-- Line 5 - Broken (Changing) -->
+<div class="relative w-full">
+<div class="hex-line hex-line-yin">
+<span class="bg-amber-500"></span>
+<span class="bg-amber-500"></span>
+</div>
+<span class="absolute -right-6 top-1/2 -translate-y-1/2 text-amber-500 text-xs font-bold">✕</span>
+</div>
+<!-- Line 4 - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+<!-- Line 3 - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+<!-- Line 2 - Solid -->
+<div class="hex-line bg-gray-800 dark:bg-gray-300"></div>
+<!-- Line 1 (Bottom) - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+</div>
+<p class="text-gray-900 dark:text-white text-base font-bold mt-3">Hex 4</p>
+</div>
+<!-- Arrow Indicator -->
+<div class="flex flex-col items-center justify-center self-center pt-6 opacity-60">
+<span class="material-symbols-outlined text-gray-400 dark:text-gray-500 text-[32px]">arrow_forward</span>
+</div>
+<!-- Transformed Hexagram -->
+<div class="flex flex-col items-center flex-1">
+<span class="text-gray-500 dark:text-[#93a5c8] text-sm font-medium mb-4 uppercase tracking-wider">Future</span>
+<!-- Hexagram 29: The Abysmal (Water) -->
+<!-- Top Trigram: Water -->
+<!-- Bottom Trigram: Water -->
+<!-- Line 5 changes from Broken to Solid -->
+<div class="w-full max-w-[120px] flex flex-col-reverse gap-1.5 p-4 rounded-xl bg-white dark:bg-[#1a2232] shadow-sm">
+<!-- Line 6 (Top) - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+<!-- Line 5 - Solid (Transformed from Broken) -->
+<div class="hex-line bg-primary"></div>
+<!-- Line 4 - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+<!-- Line 3 - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+<!-- Line 2 - Solid -->
+<div class="hex-line bg-gray-800 dark:bg-gray-300"></div>
+<!-- Line 1 (Bottom) - Broken -->
+<div class="hex-line hex-line-yin">
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+<span class="bg-gray-800 dark:bg-gray-300"></span>
+</div>
+</div>
+<p class="text-gray-900 dark:text-white text-base font-bold mt-3">Hex 29</p>
+</div>
+</div>
+</div>
+<div class="h-px bg-gray-200 dark:bg-gray-800 w-full mb-2"></div>
+<!-- Headline Text -->
+<h2 class="text-gray-900 dark:text-white tracking-light text-[24px] font-bold leading-tight px-6 text-left pb-2 pt-6">Interpretation</h2>
+<!-- Cards Container -->
+<div class="flex flex-col gap-4 p-4 pb-24">
+<!-- Primary Hexagram Card -->
+<div class="flex flex-col gap-4 rounded-xl bg-white dark:bg-[#1a2232] p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+<div class="flex justify-between items-start">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="bg-gray-100 dark:bg-gray-700 text-gray-600 dark:text-gray-300 text-xs px-2 py-1 rounded font-bold uppercase tracking-wide">Primary</span>
+<p class="text-gray-900 dark:text-white text-lg font-bold leading-tight">Hexagram 4</p>
+</div>
+<p class="text-primary font-medium text-base">Youthful Folly (Meng)</p>
+</div>
+<div class="size-12 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">spa</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-[#93a5c8] text-sm font-normal leading-relaxed">
+                    A mountain spring flows at the foot of a high mountain. The young fool seeks me. Success. It is advantageous to be firm and correct.
+                </p>
+<div class="pt-2">
+<button class="flex w-full cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-primary text-white gap-2 text-sm font-semibold leading-normal hover:bg-blue-700 transition-colors">
+<span>Read Full Meaning</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Transformed Hexagram Card -->
+<div class="flex flex-col gap-4 rounded-xl bg-white dark:bg-[#1a2232] p-5 shadow-sm border border-gray-100 dark:border-gray-800">
+<div class="flex justify-between items-start">
+<div class="flex flex-col gap-1">
+<div class="flex items-center gap-2 mb-1">
+<span class="bg-primary/10 text-primary text-xs px-2 py-1 rounded font-bold uppercase tracking-wide">Future</span>
+<p class="text-gray-900 dark:text-white text-lg font-bold leading-tight">Hexagram 29</p>
+</div>
+<p class="text-primary font-medium text-base">The Abysmal (Kan)</p>
+</div>
+<div class="size-12 rounded-lg bg-gray-100 dark:bg-gray-800 flex items-center justify-center shrink-0">
+<span class="material-symbols-outlined text-gray-500 dark:text-gray-400">water_drop</span>
+</div>
+</div>
+<p class="text-gray-600 dark:text-[#93a5c8] text-sm font-normal leading-relaxed">
+                    Water flows on uninterruptedly and reaches its goal. If you are sincere, you have success in your heart, and whatever you do succeeds.
+                </p>
+<div class="pt-2">
+<button class="flex w-full cursor-pointer items-center justify-center rounded-lg h-10 px-4 bg-gray-200 dark:bg-[#243047] text-gray-900 dark:text-white gap-2 text-sm font-semibold leading-normal hover:bg-gray-300 dark:hover:bg-[#2f3e5c] transition-colors">
+<span>Read Full Meaning</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+</div>
+<!-- Changing Lines Analysis Card (New) -->
+<div class="mt-2">
+<h3 class="text-gray-900 dark:text-white text-lg font-bold mb-3 px-1">Changing Lines</h3>
+<div class="rounded-xl bg-amber-500/10 border border-amber-500/20 p-4">
+<div class="flex gap-3 mb-2">
+<div class="mt-1">
+<span class="material-symbols-outlined text-amber-500 text-[20px]">change_circle</span>
+</div>
+<div>
+<p class="text-gray-900 dark:text-white font-bold text-sm">Line 5 (6 at 5th place)</p>
+<p class="text-gray-600 dark:text-[#93a5c8] text-sm mt-1 leading-relaxed">
+                                "Childlike folly brings good fortune."
+                                <br/>
+<span class="text-xs opacity-70 italic">This implies an attitude of openness and lack of prejudice.</span>
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Sticky Bottom Action (Optional) -->
+<div class="fixed bottom-0 left-0 w-full p-4 bg-background-light/95 dark:bg-background-dark/95 backdrop-blur-sm border-t border-gray-200 dark:border-gray-800 z-20">
+<button class="flex w-full cursor-pointer items-center justify-center rounded-xl h-12 px-4 bg-white dark:bg-white text-primary dark:text-black gap-2 text-base font-bold leading-normal shadow-lg">
+<span class="material-symbols-outlined">book</span>
+<span>Save to Journal</span>
+</button>
+</div>
+</div>
+</body></html>
