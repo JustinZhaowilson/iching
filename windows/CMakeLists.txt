@@ -1,5 +1,9 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+
+# Suppress dev warnings from dependencies (e.g. flutter_inappwebview_windows)
+set(CMAKE_SUPPRESS_DEVELOPER_WARNINGS 1 CACHE BOOL "")
+
 project(iching LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change

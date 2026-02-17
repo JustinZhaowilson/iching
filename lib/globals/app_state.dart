@@ -11,7 +11,7 @@ class AppState extends ChangeNotifier {
     return Provider.of<AppState>(context, listen: listen);
   }
 
-  ThemeData _theme = lightTheme;
+  ThemeData _theme = darkTheme;
 
   ThemeData get theme {
     return _theme;

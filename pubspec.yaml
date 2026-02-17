@@ -11,6 +11,11 @@ dependencies:
   provider: ^6.1.5
   shared_preferences: ^2.5.3
   dio: ^5.5.0+1
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  path: ^1.8.0
+  intl: ^0.20.1
+  msix: ^3.16.13
 dev_dependencies:
   flutter_test:
     sdk: flutter

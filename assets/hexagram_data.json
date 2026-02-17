@@ -1,0 +1,2567 @@
+{
+  "hexagrams": [
+    {
+      "number": 1,
+      "name": "The Creative",
+      "chineseName": "乾",
+      "pinyin": "Qián",
+      "judgment": "The Creative works sublime success, furthering through perseverance. The movement of heaven is full of power. Thus the superior man makes himself strong and untiring.",
+      "image": "Heaven above, heaven below. The Creative shows the dragon's appearance of power.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Hidden dragon. Do not act.",
+          "changingText": "The dragon lies hidden in the deep. This is not the time to act. Remain patient and gather your strength."
+        },
+        {
+          "position": 2,
+          "baseText": "Dragon appearing in the field. It furthers one to see the great man.",
+          "changingText": "The dragon's power becomes visible. Seek guidance from those who have walked this path before."
+        },
+        {
+          "position": 3,
+          "baseText": "All day long the superior man is creatively active. At nightfall his mind is still beset with cares.",
+          "changingText": "Be diligent in your efforts but remain vigilant. Success requires constant awareness."
+        },
+        {
+          "position": 4,
+          "baseText": "Wavering flight over the depths. No blame.",
+          "changingText": "You stand at a turning point. Either path may be taken without error if chosen with sincerity."
+        },
+        {
+          "position": 5,
+          "baseText": "Flying dragon in the heavens. It furthers one to see the great man.",
+          "changingText": "You have reached a position of influence. Use your power wisely to benefit others."
+        },
+        {
+          "position": 6,
+          "baseText": "Arrogant dragon will have cause to repent.",
+          "changingText": "One who climbs too high risks a great fall. Know your limits and remain humble."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "name": "The Receptive",
+      "chineseName": "坤",
+      "pinyin": "Kūn",
+      "judgment": "The Receptive brings about sublime success, furthering through the perseverance of a mare. If the superior man undertakes something and tries to lead, he goes astray; but if he follows, he finds guidance.",
+      "image": "The earth's capacity is to support. Thus the superior man who has breadth of character carries the outer world.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "When there is hoarfrost underfoot, solid ice is not far off.",
+          "changingText": "As the yin power grows, one must be prepared for the coming winter. Recognize the signs of change early."
+        },
+        {
+          "position": 2,
+          "baseText": "Straight, square, great. Without purpose, yet nothing remains unfurthered.",
+          "changingText": "Nature works without effort or artifice. By being true to your own nature, everything is accomplished naturally."
+        },
+        {
+          "position": 3,
+          "baseText": "Hidden qualities. One is able to remain persevering. If by chance you are in the service of a king, seek not works, but bring to completion.",
+          "changingText": "Do not seek fame or recognition. Focus on completing the task at hand with humility and dedication."
+        },
+        {
+          "position": 4,
+          "baseText": "A tied-up sack. No blame, no praise.",
+          "changingText": "In dangerous times, reticence is wisdom. Keep your thoughts and talents hidden to avoid harm."
+        },
+        {
+          "position": 5,
+          "baseText": "A yellow lower garment brings supreme good fortune.",
+          "changingText": "Yellow represents the center and balance; the lower garment implies humility. Modesty and balance bring success."
+        },
+        {
+          "position": 6,
+          "baseText": "Dragons fight in the meadow. Their blood is black and yellow.",
+          "changingText": "A struggle for power that has gone too far leads to destruction. Know when to yield rather than fight to the bitter end."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "name": "Difficulty at the Beginning",
+      "chineseName": "屯",
+      "pinyin": "Zhūn",
+      "judgment": "Difficulty at the Beginning works supreme success, furthering through perseverance. Nothing should be undertaken. It furthers one to appoint helpers.",
+      "image": "Clouds and thunder: The image of Difficulty at the Beginning. Thus the superior man brings order out of confusion.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Hesitation and hindrance. It furthers one to remain persevering. It furthers one to appoint helpers.",
+          "changingText": "When facing a new obstacle, do not rush. Pause, assess the situation, and seek support."
+        },
+        {
+          "position": 2,
+          "baseText": "Difficulties pile up. Horse and wagon part. He is not a robber; he wants to woo when the time is right. The maiden is chaste, she does not pledge herself. Ten years, then she pledges herself.",
+          "changingText": "Obstacles may seem insurmountable, but patience is key. Wait for the right moment; what belongs to you will come."
+        },
+        {
+          "position": 3,
+          "baseText": "Whoever hunts deer without the forester only loses his way in the forest. The superior man understands the signs of the time and prefers to desist. To go on brings humiliation.",
+          "changingText": "Do not proceed without guidance in unfamiliar territory. It is wiser to give up the chase than to get lost."
+        },
+        {
+          "position": 4,
+          "baseText": "Horse and wagon part. Strive for union. To go brings good fortune. Everything acts to further.",
+          "changingText": " Accept help when it is offered. Unity and cooperation will overcome the difficulties."
+        },
+        {
+          "position": 5,
+          "baseText": "Difficulties in not piling up. A little perseverance brings good fortune. Great perseverance brings misfortune.",
+          "changingText": "Do not force a solution when things are blocked. Small, steady efforts are better than a massive push that might fail."
+        },
+        {
+          "position": 6,
+          "baseText": "Horse and wagon part. Bloody tears flow.",
+          "changingText": "If one isolates oneself and refuses to adapt, the difficulty becomes overwhelming. Seek connection before it is too late."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "name": "Youthful Folly",
+      "chineseName": "蒙",
+      "pinyin": "Méng",
+      "judgment": "Youthful folly has success. It is not I who seek the young fool; the young fool seeks me. At the first oracle I inform him. If he asks two or three times, it is importunity. If he importunes, I give him no information. Perseverance furthers.",
+      "image": "A spring wells up at the foot of the mountain: The image of youth. Thus the superior man fosters his character by thoroughness in all that he does.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "To make a fool develop, it furthers one to apply discipline.",
+          "changingText": "The fetters should be removed. To go on in this way brings humiliation."
+        },
+        {
+          "position": 2,
+          "baseText": "To bear with fools in kindliness brings good fortune. To know how to take women brings good fortune. The son is capable of taking charge of the household.",
+          "changingText": "Showing patience and tolerance toward the immature brings success. Balancing strength with gentleness allows for effective leadership and harmony."
+        },
+        {
+          "position": 3,
+          "baseText": "Take not a maiden who, when she sees a man of bronze, loses possession of herself. Nothing furthers.",
+          "changingText": "Do not grasp at what glitters. True worth lies beneath the surface."
+        },
+        {
+          "position": 4,
+          "baseText": "Entangled folly brings humiliation.",
+          "changingText": "One who clings to illusions will suffer. Face reality with courage."
+        },
+        {
+          "position": 5,
+          "baseText": "Childlike folly brings good fortune.",
+          "changingText": "This implies an attitude of openness and lack of prejudice. Approach with innocent curiosity."
+        },
+        {
+          "position": 6,
+          "baseText": "In punishing folly, it does not further one to commit transgressions. The only thing that furthers is to prevent transgressions.",
+          "changingText": "Discipline should correct, not destroy. Guide with wisdom, not wrath."
+        }
+      ]
+    },
+    {
+      "number": 5,
+      "name": "Waiting (Xu)",
+      "chineseName": "需",
+      "pinyin": "Xū",
+      "judgment": "Waiting. If you are sincere, you have light and success. Perseverance brings good fortune. It furthers one to cross the great water.",
+      "image": "Clouds rise up to heaven: The image of Waiting. Thus the superior man eats and drinks, is joyous and of good cheer.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Waiting in the meadow. It furthers one to abide in what endures. No blame.",
+          "changingText": "Patience is a virtue, but active waiting is better. Prepare yourself while you wait."
+        },
+        {
+          "position": 2,
+          "baseText": "Waiting on the sand. There is some gossip. The end brings good fortune.",
+          "changingText": "Ignore the noise of others. Focus on your inner truth and the goal will be reached."
+        },
+        {
+          "position": 3,
+          "baseText": "Waiting in the mud brings about the arrival of the enemy.",
+          "changingText": "You are in a vulnerable position. Be cautious and do not provoke conflict."
+        },
+        {
+          "position": 4,
+          "baseText": "Waiting in blood. Get out of the pit.",
+          "changingText": "The situation is dangerous. Retreat is the only safe option; do not persist in folly."
+        },
+        {
+          "position": 5,
+          "baseText": "Waiting at meat and drink. Perseverance brings good fortune.",
+          "changingText": "Enjoy the present moment without anxiety. True waiting is a state of trust."
+        },
+        {
+          "position": 6,
+          "baseText": "One falls into the pit. Three uninvited guests arrive. Honor them, and in the end there will be good fortune.",
+          "changingText": "Help comes from unexpected quarters. Be open to receiving assistance even if it looks strange."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "name": "Conflict (Song)",
+      "chineseName": "訟",
+      "pinyin": "Sòng",
+      "judgment": "Conflict. You are sincere and are being obstructed. A cautious halt halfway brings good fortune. Going through to the end brings misfortune. It furthers one to see the great man. It does not further one to cross the great water.",
+      "image": "Heaven and water go their opposite ways: The image of Conflict. Thus the superior man in all his transactions considers the beginning.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "If one does not perpetuate the affair, there is a little gossip. In the end, good fortune comes.",
+          "changingText": "Drop the issue before it grows. Letting go of a grievance is strength, not weakness."
+        },
+        {
+          "position": 2,
+          "baseText": "One cannot engage in conflict; one returns home, gives way. The people of his town, three hundred households, remain free of guilt.",
+          "changingText": "Knowing when to retreat saves you from greater loss. Do not fight a battle you cannot win."
+        },
+        {
+          "position": 3,
+          "baseText": "To nourish oneself on ancient virtue induces perseverance. Danger. In the end, good fortune comes. If by chance you are in the service of a king, seek not works.",
+          "changingText": "Rely on your integrity rather than aggressive action. Character outlasts conflict."
+        },
+        {
+          "position": 4,
+          "baseText": "One cannot engage in conflict. One turns back and submits to fate, changes one's attitude, and finds peace in perseverance. Good fortune.",
+          "changingText": "Accepting the situation brings peace. Struggle only tightens the knot."
+        },
+        {
+          "position": 5,
+          "baseText": "To contend before him brings supreme good fortune.",
+          "changingText": "When you are in the right and have the support of authority, justice will prevail."
+        },
+        {
+          "position": 6,
+          "baseText": "Even if by chance a leather belt is bestowed on one, by the end of a morning it will have been snatched away three times.",
+          "changingText": "Victory gained through conflict is fleeting and hollow. True success comes from harmony."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "name": "The Army (Shi)",
+      "chineseName": "師",
+      "pinyin": "Shī",
+      "judgment": "The Army. The army needs perseverance and a strong man. Good fortune without blame.",
+      "image": "In the middle of the earth is water: The image of the Army. Thus the superior man increases his masses by generosity toward the people.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "An army must set forth in good order. If the order is not good, misfortune threatens.",
+          "changingText": "Discipline and clarity are essential at the start. Chaos leads to defeat."
+        },
+        {
+          "position": 2,
+          "baseText": "In the midst of the army. Good fortune. No blame. The king bestows a triple decoration.",
+          "changingText": "Stay connected to your team. Shared success brings rewards for all."
+        },
+        {
+          "position": 3,
+          "baseText": "The army carries corpses in the wagon. Misfortune.",
+          "changingText": "Leadership has failed. The cause is lost or the strategy is flawed."
+        },
+        {
+          "position": 4,
+          "baseText": "The army retreats. No blame.",
+          "changingText": "Strategic withdrawal is better than futile sacrifice. Preserve your strength."
+        },
+        {
+          "position": 5,
+          "baseText": "There is game in the field. It furthers one to catch it. Without blame. Let the eldest lead the army. The younger transports corpses; then perseverance brings misfortune.",
+          "changingText": "Trust experienced leaders. Amateurs will only cause damage."
+        },
+        {
+          "position": 6,
+          "baseText": "The great prince issues commands, founds states, bestows fiefs. Inferior people should not be employed.",
+          "changingText": "In victory, reward merit but do not give power to the unworthy."
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "name": "Holding Together (Bi)",
+      "chineseName": "比",
+      "pinyin": "Bǐ",
+      "judgment": "Holding Together brings good fortune. Inquire of the oracle once again whether you possess sublimity, constancy, and perseverance; then there is no blame. Those who are uncertain gradually join. Whoever comes too late meets with misfortune.",
+      "image": "On the earth is water: The image of Holding Together. Thus the kings of antiquity bestowed the different states as fiefs and cultivated friendly relations with the feudal lords.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Hold together with him in truth and loyalty. This is without blame. Truth, like a full earthen bowl: thus in the end, good fortune from without.",
+          "changingText": "Sincerity is the foundation of all relationships. Be true to yourself and others."
+        },
+        {
+          "position": 2,
+          "baseText": "Hold together with him inwardly. Perseverance brings good fortune.",
+          "changingText": "True connection comes from the heart, not just external forms."
+        },
+        {
+          "position": 3,
+          "baseText": "You hold together with the wrong people.",
+          "changingText": "Bad company corrupts good character. Choose your associates wisely."
+        },
+        {
+          "position": 4,
+          "baseText": "Hold together with him outwardly. Perseverance brings good fortune.",
+          "changingText": "Public support and clear allegiance bring stability."
+        },
+        {
+          "position": 5,
+          "baseText": "Manifestation of holding together. In the hunt the king uses beaters on three sides only and foregoes game that runs off in front. The citizens need no warning. Good fortune.",
+          "changingText": "Do not force others to join you. Allow them to come of their own free will."
+        },
+        {
+          "position": 6,
+          "baseText": "He finds no head for holding together. Misfortune.",
+          "changingText": "Without a clear center or leader, the group falls apart."
+        }
+      ]
+    },
+    {
+      "number": 9,
+      "name": "The Taming Power of the Small",
+      "chineseName": "小畜",
+      "pinyin": "Xiǎo Chù",
+      "judgment": "The Taming Power of the Small. Success. Dense clouds, no rain from our western region.",
+      "image": "The wind drives across heaven: The image of The Taming Power of the Small. Thus the superior man refines the outward aspect of his nature.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Return to the way. How could there be blame in this? Good fortune.",
+          "changingText": "Returning to your principles is always the right choice."
+        },
+        {
+          "position": 2,
+          "baseText": "He allows himself to be drawn into returning. Good fortune.",
+          "changingText": "Joining with others who are on the right path strengthens your resolve."
+        },
+        {
+          "position": 3,
+          "baseText": "The spokes burst out of the wagon wheels. Man and wife roll their eyes.",
+          "changingText": "Conflict arises when small frustrations are allowed to build up."
+        },
+        {
+          "position": 4,
+          "baseText": "If you are sincere, blood vanishes and fear gives way. No blame.",
+          "changingText": "Truth and sincerity dissolve fear and danger."
+        },
+        {
+          "position": 5,
+          "baseText": "If you are sincere and loyally attached, you are rich in your neighbor.",
+          "changingText": "Wealth comes from shared trust and cooperation."
+        },
+        {
+          "position": 6,
+          "baseText": "The rain comes, there is rest. This is due to the lasting effect of character. Perseverance brings the woman into danger. The moon is nearly full. If the superior man persists, misfortune comes.",
+          "changingText": "Success has been achieved; do not push further or you risk losing what you have gained."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "name": "Treading (Lu)",
+      "chineseName": "履",
+      "pinyin": "Lǚ",
+      "judgment": "Treading. Treading upon the tail of the tiger. It does not bite the man. Success.",
+      "image": "Heaven above, the lake below: The image of Treading. Thus the superior man discriminates between high and low, and thereby fortifies the thinking of the people.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Simple conduct. Progress without blame.",
+          "changingText": "Simplicity and straightforwardness keep you safe from harm."
+        },
+        {
+          "position": 2,
+          "baseText": "Treading a smooth, level course. The perseverance of a dark man brings good fortune.",
+          "changingText": "Contentment with a simple path brings inner peace and outer success."
+        },
+        {
+          "position": 3,
+          "baseText": "A one-eyed man is able to see, a lame man is able to tread. He treads on the tail of the tiger. The tiger bites the man. Misfortune. Thus does a warrior act on behalf of his great prince.",
+          "changingText": "Do not overestimate your abilities. Recklessness leads to injury."
+        },
+        {
+          "position": 4,
+          "baseText": "He treads on the tail of the tiger. Caution and circumspection lead ultimately to good fortune.",
+          "changingText": "Great danger requires great care. Move slowly and watch your step."
+        },
+        {
+          "position": 5,
+          "baseText": "Resolute conduct. Perseverance involves with danger.",
+          "changingText": "Decisive action is needed, but be aware of the risks involved."
+        },
+        {
+          "position": 6,
+          "baseText": "Look to your conduct and weigh the favorable signs. When everything is fulfilled, supreme good fortune comes.",
+          "changingText": "Review your past actions. If they have been virtuous, the future is bright."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "name": "Peace (Tai)",
+      "chineseName": "泰",
+      "pinyin": "Tài",
+      "judgment": "Peace. The small departs, the great approaches. Good fortune. Success.",
+      "image": "Heaven and earth unite: The image of Peace. Thus the ruler divides and completes the course of heaven and earth; he furthers and regulates the gifts of heaven and earth, and so aids the people.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Undertakings bring good fortune.",
+          "changingText": "When you advance, you bring others with you. Unity in purpose brings success."
+        },
+        {
+          "position": 2,
+          "baseText": "Bearing with the uncultured in gentleness, fording the river with resolution, neglecting not what is distant, not regarding one's companions: thus one may manage to walk in the middle.",
+          "changingText": "Tolerance and balance allow you to navigate complex situations without losing your way."
+        },
+        {
+          "position": 3,
+          "baseText": "No plain not followed by a slope. No departure not followed by a return. He who remains persevering in danger is without blame. Do not complain about this truth; enjoy the good fortune you still possess.",
+          "changingText": "Change is inevitable. Accept the cycles of life and remain steady in difficult times."
+        },
+        {
+          "position": 4,
+          "baseText": "He flutters down, not boasting of his wealth, together with his neighbor, guileless and sincere.",
+          "changingText": "True connection requires humility and trust. Drop your defenses and connect with others."
+        },
+        {
+          "position": 5,
+          "baseText": "The sovereign I gives his daughter in marriage. This brings blessing and supreme good fortune.",
+          "changingText": "Modesty in high places brings great rewards. Use your position to create harmony."
+        },
+        {
+          "position": 6,
+          "baseText": "The wall falls back into the moat. Use no army now. Make your commands known within your own town. Perseverance brings humiliation.",
+          "changingText": "Defenses are crumbling. Do not fight a losing battle; look inward and consolidate what remains."
+        }
+      ]
+    },
+    {
+      "number": 12,
+      "name": "Standstill (Pi)",
+      "chineseName": "否",
+      "pinyin": "Pǐ",
+      "judgment": "Standstill. Evil people do not further the perseverance of the superior man. The great departs; the small approaches.",
+      "image": "Heaven and earth do not unite: The image of Standstill. Thus the superior man falls back upon his inner worth in order to escape the difficulties. He does not permit himself to be honored with revenue.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "When ribbon grass is pulled up, the sod comes with it. Each according to his kind. Perseverance brings good fortune and success.",
+          "changingText": "Withdraw with those who share your values. There is strength in unity even in retreat."
+        },
+        {
+          "position": 2,
+          "baseText": "They bear and endure; this means good fortune for inferior people. The standstill serves to help the great man to attain success.",
+          "changingText": "Endure the difficult times with patience. Use this period for inner growth."
+        },
+        {
+          "position": 3,
+          "position": 3,
+          "baseText": "They bear shame.",
+          "changingText": "Recognize when you are compromised. Acknowledging the situation is the first step to changing it."
+        },
+        {
+          "position": 4,
+          "baseText": "He who acts at the command of the highest remains without blame. Those of like mind partake of the blessing.",
+          "changingText": "Follow your highest principles. Acting with integrity brings support from others."
+        },
+        {
+          "position": 5,
+          "baseText": "Standstill is giving way. Good fortune for the great man. 'What if it should fail, what if it should fail?' In this way he ties it to a cluster of mulberry shoots.",
+          "changingText": "Change is coming, but it requires caution. Secure your position before advancing."
+        },
+        {
+          "position": 6,
+          "baseText": "The standstill comes to an end. First standstill, then good fortune.",
+          "changingText": "The period of stagnation is over. Move forward with confidence."
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "name": "Fellowship with Men (Tong Ren)",
+      "chineseName": "同人",
+      "pinyin": "Tóng Rén",
+      "judgment": "Fellowship with Men in the open. Success. It furthers one to cross the great water. The perseverance of the superior man furthers.",
+      "image": "Heaven together with fire: The image of Fellowship with Men. Thus the superior man uses simple kindness to bring understanding into darkness.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Fellowship with men at the gate. No blame.",
+          "changingText": "Openness to all without prejudice brings no blame. Start relationships on equal footing."
+        },
+        {
+          "position": 2,
+          "baseText": "Fellowship with men in the clan. Humiliation.",
+          "changingText": "Exclusivity breeds resentment. Broaden your circle beyond your immediate group."
+        },
+        {
+          "position": 3,
+          "baseText": "He hides weapons in the thicket; he climbs the high hill. For three years he does not rise up.",
+          "changingText": "Mistrust leads to isolation. Put down your defenses if you wish to connect."
+        },
+        {
+          "position": 4,
+          "baseText": "He climbs up on his wall; he cannot attack. Good fortune.",
+          "changingText": "Realizing the futility of conflict brings clearer perspective. Step back and reconsider."
+        },
+        {
+          "position": 5,
+          "baseText": "Men bound in fellowship first weep and lament, but afterward they laugh. After great struggles they succeed in meeting.",
+          "changingText": "True connection may face obstacles, but perseverance leads to joyful reunion."
+        },
+        {
+          "position": 6,
+          "baseText": "Fellowship with men in the meadow. No remorse.",
+          "changingText": "A distant connection is better than none. Accept what is possible."
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "name": "Great Possession (Da You)",
+      "chineseName": "大有",
+      "pinyin": "Dà Yǒu",
+      "judgment": "Great Possession. Supreme success.",
+      "image": "Fire in heaven above: The image of Great Possession. Thus the superior man curbs his evil and furthers the good, and thereby obeys the benevolent will of heaven.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "No relationship with what is harmful; there is no blame. If one remains conscious of difficulty, one remains without blame.",
+          "changingText": "Avoid negative influences early. Awareness of potential problems prevents them."
+        },
+        {
+          "position": 2,
+          "baseText": "A big wagon for loading. One may undertake something. No blame.",
+          "changingText": "You have the resources and capacity to take on great tasks. Proceed with confidence."
+        },
+        {
+          "position": 3,
+          "baseText": "A prince offers it to the Son of Heaven. A petty man cannot do this.",
+          "changingText": "Generosity is the privilege of the noble spirit. Do not hoard your blessings."
+        },
+        {
+          "position": 4,
+          "baseText": "He makes a difference between himself and his neighbor. No blame.",
+          "changingText": "Maintaing clear boundaries prevents envy and conflict."
+        },
+        {
+          "position": 5,
+          "baseText": "He whose truth is accessible, yet dignified, has good fortune.",
+          "changingText": "Sincerity combined with dignity attracts respect and success."
+        },
+        {
+          "position": 6,
+          "baseText": "He is blessed by heaven. Good fortune. Nothing that does not further.",
+          "changingText": "When your actios align with the greater good, you receive support from all sides."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "name": "Modesty (Qian)",
+      "chineseName": "謙",
+      "pinyin": "Qiān",
+      "judgment": "Modesty creates success. The superior man carries things through.",
+      "image": "Within the earth, a mountain: The image of Modesty. Thus the superior man reduces that which is too much, and augments that which is too little. He weighs things and makes them equal.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "A superior man modest about his modesty may cross the great water. Good fortune.",
+          "changingText": "True modesty needs no display. It is a source of strength in difficult undertakings."
+        },
+        {
+          "position": 2,
+          "baseText": "Modesty that comes to expression. Perseverance brings good fortune.",
+          "changingText": "When modesty is genuine, it naturally shows in your actions and brings success."
+        },
+        {
+          "position": 3,
+          "baseText": "A superior man of modesty and merit carries things to conclusion. Good fortune.",
+          "changingText": "Combine ability with humility. This ensures that your work endures."
+        },
+        {
+          "position": 4,
+          "baseText": "Nothing that would not further modesty in movement.",
+          "changingText": "Even in action, remain modest. This opens doors and removes obstacles."
+        },
+        {
+          "position": 5,
+          "baseText": "No boasting of wealth before one's neighbor. It is favorable to attack with force. Nothing that would not further.",
+          "changingText": "Modesty does not mean weakness. Use your resources decisively when needed, without arrogance."
+        },
+        {
+          "position": 6,
+          "baseText": "Modesty that comes to expression. It is favorable to set armies in motion to chastise one's own city and one's country.",
+          "changingText": "Use modesty to correct your own faults and bring order to your own domain."
+        }
+      ]
+    },
+    {
+      "number": 16,
+      "name": "Enthusiasm (Yu)",
+      "chineseName": "豫",
+      "pinyin": "Yù",
+      "judgment": "Enthusiasm. It furthers one to install helpers and to set armies in motion.",
+      "image": "Thunder comes resounding out of the earth: The image of Enthusiasm. Thus the ancient kings made music in order to honor merit, and offered it with magnificence to the Supreme Deity, inviting their ancestors to be present.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Enthusiasm that expresses itself brings misfortune.",
+          "changingText": "Do not get carried away by excitement before you have achieved anything. Keep your focus."
+        },
+        {
+          "position": 2,
+          "baseText": "Firm as a rock. Not a whole day. Perseverance brings good fortune.",
+          "changingText": "Realize the situation quickly and act firmly. Do not be swayed by the crowd."
+        },
+        {
+          "position": 3,
+          "baseText": "Enthusiasm that looks upward creates remorse. Late repentance is rare.",
+          "changingText": "Looking for approval from above distracts you from your path. Trust your own judgment."
+        },
+        {
+          "position": 4,
+          "baseText": "The source of enthusiasm. He achieves great things. Doubt not. You gather friends around you as a hair clasp gathers the hair.",
+          "changingText": "Your genuine enthusiasm inspires others. Trust in your vision and others will follow."
+        },
+        {
+          "position": 5,
+          "baseText": "Persistently ill, and still does not die.",
+          "changingText": "Chronic problems drain your energy but do not defeat you. Endurance is key."
+        },
+        {
+          "position": 6,
+          "baseText": "Deluded enthusiasm. But if after completion one changes, there is no blame.",
+          "changingText": "It is not too late to wake up from false excitement. Changing course brings relief."
+        }
+      ]
+    },
+    {
+      "number": 17,
+      "name": "Following (Sui)",
+      "chineseName": "隨",
+      "pinyin": "Suí",
+      "judgment": "Following has supreme success. Perseverance furthers. No blame.",
+      "image": "Thunder in the middle of the lake: The image of Following. Thus the superior man at nightfall goes indoors for rest and recuperation.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The standard is changing. Perseverance brings good fortune. To go out of the gate in company produces deeds.",
+          "changingText": "Be willing to adapt your methods. success comes from working with others."
+        },
+        {
+          "position": 2,
+          "baseText": "If one clings to the little boy, one loses the strong man.",
+          "changingText": "Choosing inferior company means losing out on better opportunities. Choose wisely."
+        },
+        {
+          "position": 3,
+          "baseText": "If one clings to the strong man, one loses the little boy. Through following one finds what one seeks. It furthers one to remain persevering.",
+          "changingText": "Let go of the lesser to gain the greater. Committed following brings rewards."
+        },
+        {
+          "position": 4,
+          "baseText": "Following creates success. Perseverance brings misfortune. To go one's way with sincerity brings clarity. How could there be blame in this?",
+          "changingText": "Success through manipulation is short-lived. Stay true to your own path."
+        },
+        {
+          "position": 5,
+          "baseText": "Sincere in the good. Good fortune.",
+          "changingText": "Confidence in what is right creates positive outcomes."
+        },
+        {
+          "position": 6,
+          "baseText": "He meets with firm allegiance and is still further bound. The king introduces him to the Western Mountain.",
+          "changingText": "Loyalty is rewarded. A deep bond leads to a higher calling."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "name": "Work on What Has Been Spoiled (Gu)",
+      "chineseName": "蠱",
+      "pinyin": "Gǔ",
+      "judgment": "Work on What Has Been Spoiled has supreme success. It furthers one to cross the great water. Before the starting point, three days. After the starting point, three days.",
+      "image": "The wind blows low on the mountain: The image of Decay. Thus the superior man stirs up the people and strengthens their spirit.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Setting right what has been spoiled by the father. If there is a son, no blame rests upon the departed father. Danger. In the end good fortune.",
+          "changingText": "Correcting past mistakes requires courage, but it heals the lineage."
+        },
+        {
+          "position": 2,
+          "baseText": "Setting right what has been spoiled by the mother. One must not be too persevering.",
+          "changingText": "Gentleness is needed when dealing with deep-seated emotional issues."
+        },
+        {
+          "position": 3,
+          "baseText": "Setting right what has been spoiled by the father. There will be a little remorse. No great blame.",
+          "changingText": "Action is better than inaction, even if it causes temporary friction."
+        },
+        {
+          "position": 4,
+          "baseText": "Tolerating what has been spoiled by the father. In continuing one sees humiliation.",
+          "changingText": "Ignoring problems only makes them worse. Face the issue now."
+        },
+        {
+          "position": 5,
+          "baseText": "Setting right what has been spoiled by the father. One meets with praise.",
+          "changingText": "Resolving long-standing issues brings recognition and relief."
+        },
+        {
+          "position": 6,
+          "baseText": "He does not serve kings and princes, sets himself higher goals.",
+          "changingText": "Transcending worldly affairs allows one to focus on spiritual cultivation."
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "name": "Approach (Lin)",
+      "chineseName": "臨",
+      "pinyin": "Lín",
+      "judgment": "Approach has supreme success. Perseverance furthers. When the eighth month comes, there will be misfortune.",
+      "image": "The earth above the lake: The image of Approach. Thus the superior man is inexhaustible in his will to teach, and without limits in his tolerance and protection of the people.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Joint approach. Perseverance brings good fortune.",
+          "changingText": "Advance together with others. Shared momentum creates success."
+        },
+        {
+          "position": 2,
+          "baseText": "Joint approach. Good fortune. Everything furthers.",
+          "changingText": "Cooperation is key. When forces align, progress is assured."
+        },
+        {
+          "position": 3,
+          "baseText": "Comfortable approach. Nothing that would further. If one is induced to grieve over it, one becomes free of blame.",
+          "changingText": "Complacency leads to decline. Wake up to the reality of the situation."
+        },
+        {
+          "position": 4,
+          "baseText": "Complete approach. No blame.",
+          "changingText": "Approach the situation with total sincerity and presence."
+        },
+        {
+          "position": 5,
+          "baseText": "Wise approach. This is right for a great prince. Good fortune.",
+          "changingText": "Choosing capable helpers allows you to lead with wisdom and ease."
+        },
+        {
+          "position": 6,
+          "baseText": "Great-hearted approach. Good fortune. No blame.",
+          "changingText": "Magnanimity and generosity bring good fortune to all."
+        }
+      ]
+    },
+    {
+      "number": 20,
+      "name": "Contemplation (Guan)",
+      "chineseName": "觀",
+      "pinyin": "Guān",
+      "judgment": "Contemplation. The ablution has been made, but not yet the offering. Full of trust they look up to him.",
+      "image": "The wind blows over the earth: The image of Contemplation. Thus the kings of old visited the regions of the world, recognized the people, and gave them instruction.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Boylike contemplation. For an inferior man, no blame. For a superior man, humiliation.",
+          "changingText": "Superficial understanding is fine for the immature, but you should know better."
+        },
+        {
+          "position": 2,
+          "baseText": "Contemplation through the crack of the door. Furthering for the perseverance of a woman.",
+          "changingText": "Limited vision leads to limited results. Broaden your perspective."
+        },
+        {
+          "position": 3,
+          "baseText": "Contemplation of my life. Decides the choice between advance and retreat.",
+          "changingText": "Self-reflection guides your next step. Know yourself before acting."
+        },
+        {
+          "position": 4,
+          "baseText": "Contemplation of the light of the kingdom. It furthers one to exert influence as the guest of a king.",
+          "changingText": "Recognize value where it exists. Serving a higher cause brings reward."
+        },
+        {
+          "position": 5,
+          "baseText": "Contemplation of my life. The superior man is without blame.",
+          "changingText": "Honest self-assessment reveals your true character."
+        },
+        {
+          "position": 6,
+          "baseText": "Contemplation of his life. The superior man is without blame.",
+          "changingText": "Freedom from the ego allows for pure contemplation and understanding."
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "name": "Biting Through (Shi He)",
+      "chineseName": "噬嗑",
+      "pinyin": "Shì Ké",
+      "judgment": "Biting Through has success. It is favorable to let justice be administered.",
+      "image": "Thunder and lightning: The image of Biting Through. Thus the kings of former times made firm the laws through clearly defined penalties.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "His feet are fastened in the stocks, so that his toes disappear. No blame.",
+          "changingText": "Small punishments for minor offenses prevent greater crimes later."
+        },
+        {
+          "position": 2,
+          "baseText": "Bites through tender meat, so that his nose disappears. No blame.",
+          "changingText": "Acting quickly and decisively on minor issues prevents them from becoming major problems."
+        },
+        {
+          "position": 3,
+          "baseText": "Bites on old dried meat and strikes on something poisonous. Slight humiliation. No blame.",
+          "changingText": "Old problems are hard to chew, but persistence is necessary even if it is unpleasant."
+        },
+        {
+          "position": 4,
+          "baseText": "Bites on dried gristly meat. Receives metal arrows. It furthers one to be mindful of difficulties and to be persevering. Good fortune.",
+          "changingText": "Tackling difficult problems requires strength and perseverance. Stay the course."
+        },
+        {
+          "position": 5,
+          "baseText": "Bites on dried lean meat. Receives yellow gold. Perseveringly aware of danger. No blame.",
+          "changingText": "Be firm but fair. Maintaining balance while dealing with hard issues leads to value."
+        },
+        {
+          "position": 6,
+          "baseText": "His neck is fastened in the wooden cangue, so that his ears disappear. Misfortune.",
+          "changingText": "Refusing to listen to warnings or learn from mistakes leads to severe consequences."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "name": "Grace (Bi)",
+      "chineseName": "賁",
+      "pinyin": "Bì",
+      "judgment": "Grace has success. In small matters. It is favorable to undertake something.",
+      "image": "Fire at the foot of the mountain: The image of Grace. Thus the superior man proceeds when clearing up current affairs. But he does not dare to decide controversial issues in this way.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "He lends grace to his toes, leaves calculation, and walks.",
+          "changingText": "Simplicity and honesty are more beautiful than artifice. Walk your own path."
+        },
+        {
+          "position": 2,
+          "baseText": "Lends grace to his beard.",
+          "changingText": "Concern with outward appearance is superficial. Focus on substance."
+        },
+        {
+          "position": 3,
+          "baseText": "Graceful and moist. Constant perseverance brings good fortune.",
+          "changingText": "Charm and pleasantness help, but enduring success requires inner resolve."
+        },
+        {
+          "position": 4,
+          "baseText": "Grace or simplicity? A white horse comes as if on wings. He is not a robber, he will woo at the right time.",
+          "changingText": "Let go of pretenses. Simplicity attracts true connection."
+        },
+        {
+          "position": 5,
+          "baseText": "Grace in hills and gardens. The roll of silk is meager and small. Humiliation, but in the end good fortune.",
+          "changingText": "Modest gifts given with a sincere heart are more valuable than lavish displays."
+        },
+        {
+          "position": 6,
+          "baseText": "Simple grace. No blame.",
+          "changingText": "Ultimate beauty lies in simplicity. Return to the essential."
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "name": "Splitting Apart (Bo)",
+      "chineseName": "剝",
+      "pinyin": "Bō",
+      "judgment": "Splitting Apart. It does not further one to go anywhere.",
+      "image": "The mountain rests on the earth: The image of Splitting Apart. Thus those above can ensure their position only by giving to those below.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The leg of the bed is split. Those who persevere are destroyed. Misfortune.",
+          "changingText": "Decay starts at the foundation. Ignoring small cracks leads to collapse."
+        },
+        {
+          "position": 2,
+          "baseText": "The leg of the bed is split. Those who persevere are destroyed. Misfortune.",
+          "changingText": "The danger is rising. Continuing on the current path brings ruin."
+        },
+        {
+          "position": 3,
+          "baseText": "He splits with them. No blame.",
+          "changingText": "Separating yourself from a corrupt situation saves you from sharing its fate."
+        },
+        {
+          "position": 4,
+          "baseText": "The bed is split up to the skin. Misfortune.",
+          "changingText": "The crisis is imminent and personal. Immediate action is required."
+        },
+        {
+          "position": 5,
+          "baseText": "A shoal of fishes. Favor comes through the court ladies. Everything acts to further.",
+          "changingText": "Even in decline, new leadership can emerge to turn the tide. Be open to change."
+        },
+        {
+          "position": 6,
+          "baseText": "There is a large fruit still uneaten. The superior man receives a carriage. The house of the inferior man is split apart.",
+          "changingText": "The seed of the future remains. Hope persists even in the darkest times."
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "name": "Return (Fu)",
+      "chineseName": "復",
+      "pinyin": "Fù",
+      "judgment": "Return. Success. Going out and coming in without error. Friends come without blame. To and fro goes the way. On the seventh day comes return. It furthers one to have somewhere to go.",
+      "image": "Thunder within the earth: The image of Return. Thus the kings of antiquity closed the passes at the time of solstice. Merchants and strangers did not go about, and the ruler did not travel through the provinces.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Return from a short distance. No need for remorse. Great good fortune.",
+          "changingText": "Correcting a mistake early prevents serious consequences. Self-awareness brings success."
+        },
+        {
+          "position": 2,
+          "baseText": "Quiet return. Good fortune.",
+          "changingText": "Returning to the right path with humility effectively restores balance."
+        },
+        {
+          "position": 3,
+          "baseText": "Repeated return. Danger. No blame.",
+          "changingText": "Wavering requires constant correction. Though tedious, it is better than persisting in error."
+        },
+        {
+          "position": 4,
+          "baseText": "Walking in the middle, one returns alone.",
+          "changingText": "Following your own truth may mean walking alone, but it is the right path."
+        },
+        {
+          "position": 5,
+          "baseText": "Noble-hearted return. No remorse.",
+          "changingText": "Admitting mistakes openly shows strength of character and clears the way forward."
+        },
+        {
+          "position": 6,
+          "baseText": "Missing the return. Misfortune. Misfortune from within and without. If armies are set in motion in this way, one will in the end suffer a great defeat.",
+          "changingText": "Stubborn refusal to change course leads to disaster. Do not miss your chance to turn back."
+        }
+      ]
+    },
+    {
+      "number": 25,
+      "name": "Innocence (Wu Wang)",
+      "chineseName": "無妄",
+      "pinyin": "Wú Wàng",
+      "judgment": "Innocence. Supreme success. Perseverance furthers. If someone is not as he should be, he has misfortune, and it does not further him to undertake anything.",
+      "image": "Thunder rolls under heaven: The image of Innocence. Thus the ancient kings, rich in virtue, and in harmony with the time, fostered and nourished all beings.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Innocent behavior brings good fortune.",
+          "changingText": "Acting without guile or hidden agendas naturally leads to success."
+        },
+        {
+          "position": 2,
+          "baseText": "If one does not count on the harvest while plowing, nor on the use of the ground while clearing it, it furthers one to undertake something.",
+          "changingText": "Focus on the work itself, not the reward. True dedication brings its own results."
+        },
+        {
+          "position": 3,
+          "baseText": "Undeserved misfortune. The cow that was tethered by someone is the wanderer's gain, the citizen's loss.",
+          "changingText": "Sometimes bad luck happens without fault. Accept it and move on without bitterness."
+        },
+        {
+          "position": 4,
+          "baseText": "He who can be persevering remains without blame.",
+          "changingText": "Stay true to your nature. Inner consistency protects you from error."
+        },
+        {
+          "position": 5,
+          "baseText": "Use no medicine in an illness incurred through no fault of your own. It will pass of itself.",
+          "changingText": "Do not interfere excessively. Some problems resolve themselves with time and patience."
+        },
+        {
+          "position": 6,
+          "baseText": "Innocent action brings misfortune.",
+          "changingText": "Innocence is not enough if the timing is wrong. Be aware of the context."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "name": "The Taming Power of the Great (Da Chu)",
+      "chineseName": "大畜",
+      "pinyin": "Dà Chù",
+      "judgment": "The Taming Power of the Great. Perseverance furthers. Not eating at home brings good fortune. It furthers one to cross the great water.",
+      "image": "Heaven within the mountain: The image of The Taming Power of the Great. Thus the superior man acquaints himself with many sayings of antiquity and many deeds of the past, in order to strengthen his character thereby.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Danger is at hand. It furthers one to desist.",
+          "changingText": "Do not rush into danger. Restraint now preserves energy for later success."
+        },
+        {
+          "position": 2,
+          "baseText": "The spokes burst out of the wagon wheels.",
+          "changingText": "External forces stop your progress. Accept the delay rather than forcing the issue."
+        },
+        {
+          "position": 3,
+          "baseText": "A good horse that follows others. Awareness of danger, with perseverance, furthers. Practice chariot driving and armed defense daily. It furthers one to have somewhere to go.",
+          "changingText": "Align yourself with positive forces. Preparation creates opportunity."
+        },
+        {
+          "position": 4,
+          "baseText": "The headboard of a young bull. Great good fortune.",
+          "changingText": "Restraining impulses early prevents trouble. Prevention is better than cure."
+        },
+        {
+          "position": 5,
+          "baseText": "The tusk of a gelded boar. Good fortune.",
+          "changingText": "Indirect restraint is effective. Controlling the source of the problem brings luck."
+        },
+        {
+          "position": 6,
+          "baseText": "One attains the way of heaven. Success.",
+          "changingText": "The obstruction is removed. Move forward with the blessings of heaven."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "name": "The Corners of the Mouth (Yi)",
+      "chineseName": "頤",
+      "pinyin": "Yí",
+      "judgment": "The Corners of the Mouth. Perseverance brings good fortune. Pay heed to the providing of nourishment and to what a man seeks to fill his own mouth with.",
+      "image": "Thunder within the mountain: The image of The Corners of the Mouth. Thus the superior man pays heed to his words and is temperate in eating and drinking.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "You let your magic tortoise go, and look at me with drooped corners of the mouth. Misfortune.",
+          "changingText": "Envying others while ignoring your own unique gifts brings unhappiness."
+        },
+        {
+          "position": 2,
+          "baseText": "Turning to the summit for nourishment, deviating from the path. To seek nourishment from the hill. Continuing to do this brings misfortune.",
+          "changingText": "Seeking support in the wrong places leads to dependence and loss of dignity."
+        },
+        {
+          "position": 3,
+          "baseText": "Turning away from nourishment. Perseverance brings misfortune. Do not act thus for ten years. Nothing serves to further.",
+          "changingText": "Rejecting what nurtures you leads to serious decline. Stop this behavior."
+        },
+        {
+          "position": 4,
+          "baseText": "Turning to the summit for nourishment brings good fortune. Spying about with sharp eyes like a tiger with insatiable craving. No blame.",
+          "changingText": "Seeking help from higher sources for the right reasons brings success."
+        },
+        {
+          "position": 5,
+          "baseText": "Turning away from the path. To remain persevering brings good fortune. One should not cross the great water.",
+          "changingText": "Recognize your limitations. Stay in your place and rely on those who can help."
+        },
+        {
+          "position": 6,
+          "baseText": "The source of nourishment. Awareness of danger brings good fortune. It furthers one to cross the great water.",
+          "changingText": "You have become a source of nourishment for others. Handle this responsibility with care."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "name": "Preponderance of the Great (Da Guo)",
+      "chineseName": "大過",
+      "pinyin": "Dà Guò",
+      "judgment": "Preponderance of the Great. The ridgepole sags to the breaking point. It furthers one to have somewhere to go. Success.",
+      "image": "The lake rises above the trees: The image of Preponderance of the Great. Thus the superior man, when he stands alone, is unconcerned, and if he has to renounce the world, he is undaunted.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "To spread white rushes underneath. No blame.",
+          "changingText": "Extreme caution at the beginning prevents mistakes. Preparation is key."
+        },
+        {
+          "position": 2,
+          "baseText": "A dry poplar sprouts at the root. An older man takes a young wife. Everything furthers.",
+          "changingText": "Revitalization is possible. New life emerges from old structures."
+        },
+        {
+          "position": 3,
+          "baseText": "The ridgepole sags to the breaking point. Misfortune.",
+          "changingText": "The burden is too heavy. Refusing to accept limits leads to collapse."
+        },
+        {
+          "position": 4,
+          "baseText": "The ridgepole is braced. Good fortune. If there are ulterior motives, it is humiliating.",
+          "changingText": "Support is found, but motives must be pure. Strengthen the structure."
+        },
+        {
+          "position": 5,
+          "baseText": "A withered poplar puts forth flowers. An older woman takes a husband. No blame. No praise.",
+          "changingText": "A temporary renewal, but not a lasting solution. Enjoy the moment for what it is."
+        },
+        {
+          "position": 6,
+          "baseText": "One must go through the water. It goes over one's head. Misfortune. No blame.",
+          "changingText": "Courageous action in impossible circumstances is noble, even if it fails."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "name": "The Abysmal",
+      "chineseName": "坎",
+      "pinyin": "Kǎn",
+      "judgment": "The Abysmal repeated. If you are sincere, you have success in your heart, and whatever you do succeeds. Water flows on uninterruptedly and reaches its goal.",
+      "image": "Water flows on uninterruptedly and reaches its goal: The image of the Abysmal repeated. Thus the superior man walks in lasting virtue and carries on the business of teaching.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Repetition of the Abysmal. In the abyss one falls into a pit. Misfortune.",
+          "changingText": "One who falls deeper into danger without learning invites disaster."
+        },
+        {
+          "position": 2,
+          "baseText": "The abyss is dangerous. One should strive to attain small things only.",
+          "changingText": "In times of peril, seek modest gains rather than grand achievements."
+        },
+        {
+          "position": 3,
+          "baseText": "Forward and backward, abyss on abyss. In danger like this, pause at first and wait, otherwise you will fall into a pit in the abyss. Do not act in this way.",
+          "changingText": "When surrounded by danger, stillness is wisdom. Wait for the path to become clear."
+        },
+        {
+          "position": 4,
+          "baseText": "A jug of wine, a bowl of rice with it; earthen vessels simply handed in through the window. There is certainly no blame in this.",
+          "changingText": "Simple sincerity in times of danger creates trust. Offer what you have with an open heart."
+        },
+        {
+          "position": 5,
+          "baseText": "The abyss is not filled to overflowing, it is filled only to the rim. No blame.",
+          "changingText": "Danger is present but not overwhelming. With care, you will navigate through."
+        },
+        {
+          "position": 6,
+          "baseText": "Bound with cords and ropes, shut in between thorn-hedged prison walls. For three years one does not find the way. Misfortune.",
+          "changingText": "One who cannot escape danger must endure with patience. This too shall pass."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "name": "The Clinging, Fire (Li)",
+      "chineseName": "離",
+      "pinyin": "Lí",
+      "judgment": "The Clinging. Perseverance furthers. It brings success. Care of the cow brings good fortune.",
+      "image": "Fire rises from the earth: The image of The Clinging. Thus the great man, by perpetuating this brightness, illumines the four quarters of the world.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The footprints run crisscross. If one is seriously intent, no blame.",
+          "changingText": "Confusion at the start is cleared by serious intent and focus."
+        },
+        {
+          "position": 2,
+          "baseText": "Yellow light. Supreme good fortune.",
+          "changingText": "Moderation and balance bring the greatest success. Stay centered."
+        },
+        {
+          "position": 3,
+          "baseText": "In the light of the setting sun, men either beat the pot and sing or loudly bewail the approach of old age. Misfortune.",
+          "changingText": "Accept the natural cycles of decline without despair or false cheer. Find peace in transitions."
+        },
+        {
+          "position": 4,
+          "baseText": "Its coming is sudden; it flames up, dies down, change thrown away.",
+          "changingText": "Brief, intense brilliance without substance burns out quickly. Seek steady light."
+        },
+        {
+          "position": 5,
+          "baseText": "Tears in floods, sighing and lamenting. Good fortune.",
+          "changingText": "Deep sorrow clears the heart and leads to clarity. A necessary release."
+        },
+        {
+          "position": 6,
+          "baseText": "The king uses him to march forth and chastise. Then it is best to kill the leaders and take captive the followers. No blame.",
+          "changingText": "Eliminate the root of the evil, but show mercy to those who were misled."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "name": "Influence (Wooing) (Xian)",
+      "chineseName": "咸",
+      "pinyin": "Xián",
+      "judgment": "Influence. Success. Perseverance furthers. To take a maiden to wife brings good fortune.",
+      "image": "A lake on the mountain: The image of Influence. Thus the superior man encourages people to approach him by his readiness to receive them.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The influence shows itself in the big toe.",
+          "changingText": "A tentative start. The influence is present but not yet significant."
+        },
+        {
+          "position": 2,
+          "baseText": "The influence shows itself in the calves of the legs. Misfortune. Tarrying brings good fortune.",
+          "changingText": "Impulsive movement leads to trouble. Hold back and wait for the right moment."
+        },
+        {
+          "position": 3,
+          "baseText": "The influence shows itself in the thighs. Holds to that which follows it. Going forward causes regret.",
+          "changingText": "Do not blindly follow every whim or influence. Stay grounded in your own center."
+        },
+        {
+          "position": 4,
+          "baseText": "Perseverance brings good fortune. Remorse disappears. If a man is agitated in mind, and his thoughts go hither and thither, only those friends will follow whom he fixes with conscious thoughts.",
+          "changingText": "Clear intentions attract the right response. Wavering thoughts lead to scattered results."
+        },
+        {
+          "position": 5,
+          "baseText": "The influence shows itself in the back of the neck. No remorse.",
+          "changingText": "Willpower alone cannot create a deep connection. True influence must reach the heart."
+        },
+        {
+          "position": 6,
+          "baseText": "The influence shows itself in the jaws, cheeks, and tongue.",
+          "changingText": "Superficial talk has no real influence. Actions speak louder than words."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "name": "Duration (Heng)",
+      "chineseName": "恆",
+      "pinyin": "Héng",
+      "judgment": "Duration. Success. No blame. Perseverance furthers. It furthers one to have somewhere to go.",
+      "image": "Thunder and wind: The image of Duration. Thus the superior man stands firm and does not change his direction.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Seeking duration too hastily brings misfortune persistently. Nothing that would further.",
+          "changingText": "Enduring things take time to grow. Trying to force permanence leads to failure."
+        },
+        {
+          "position": 2,
+          "baseText": "Remorse disappears.",
+          "changingText": "Avoiding extremes allows you to last. Moderate success is better than burnout."
+        },
+        {
+          "position": 3,
+          "baseText": "He who does not give duration to his character meets with disgrace. Persistent humiliation.",
+          "changingText": "Inconsistency destroys trust. Be reliable."
+        },
+        {
+          "position": 4,
+          "baseText": "No game in the field.",
+          "changingText": "You are looking in the wrong place. Persistent effort in the wrong direction yields nothing."
+        },
+        {
+          "position": 5,
+          "baseText": "Giving duration to one's character through perseverance. This is good fortune for a woman, misfortune for a man.",
+          "changingText": "Adaptability is as important as steadfastness. Know when to persist and when to change."
+        },
+        {
+          "position": 6,
+          "baseText": "Restlessness as an enduring condition. Misfortune.",
+          "changingText": "Constant movement without purpose is exhausting and fruitless. Find your center."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "name": "Retreat (Dun)",
+      "chineseName": "遯",
+      "pinyin": "Dùn",
+      "judgment": "Retreat. Success. In what is small, perseverance furthers.",
+      "image": "Mountain under heaven: The image of Retreat. Thus the superior man keeps the inferior man at a distance, not angrily but with reserve.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "At the tail in retreat. This is dangerous. One must not wish to undertake anything.",
+          "changingText": "You are too close to the danger to act. Lie low and wait."
+        },
+        {
+          "position": 2,
+          "baseText": "He holds him fast with yellow oxhide. No one can tear him loose.",
+          "changingText": "Firm determination to do what is right cannot be shaken."
+        },
+        {
+          "position": 3,
+          "baseText": "A halted retreat is nerve-wracking and dangerous. To retain people as men- and maidservants brings good fortune.",
+          "changingText": "If you cannot leave completely, protect yourself by engaging helpers."
+        },
+        {
+          "position": 4,
+          "baseText": "Voluntary retreat brings good fortune to the superior man and downfall to the inferior man.",
+          "changingText": "Letting go by choice brings freedom. Clinging leads to loss."
+        },
+        {
+          "position": 5,
+          "baseText": "Friendly retreat. Perseverance brings good fortune.",
+          "changingText": "Leaving on good terms resolves the situation peacefully."
+        },
+        {
+          "position": 6,
+          "baseText": "Cheerful retreat. Everything serves to further.",
+          "changingText": "Complete detachment from the problem brings joy and clarity."
+        }
+      ]
+    },
+    {
+      "number": 34,
+      "name": "The Power of the Great (Da Zhuang)",
+      "chineseName": "大壯",
+      "pinyin": "Dà Zhuàng",
+      "judgment": "The Power of the Great. Perseverance furthers.",
+      "image": "Thunder in heaven above: The image of The Power of the Great. Thus the superior man does not tread upon paths that do not accord with established order.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Power in the toes. Continuing brings misfortune. This is certainly true.",
+          "changingText": "Do not advance just because you can. Wait until your position is secure."
+        },
+        {
+          "position": 2,
+          "baseText": "Perseverance brings good fortune.",
+          "changingText": "Steady, moderate use of power brings success."
+        },
+        {
+          "position": 3,
+          "baseText": "The inferior man works through power. The superior man does not act thus. To continue is dangerous. A goat butts against a hedge and gets its horns entangled.",
+          "changingText": "Forcing your way through leads to entanglement. Use wisdom, not just force."
+        },
+        {
+          "position": 4,
+          "baseText": "Perseverance brings good fortune. Remorse disappears. The hedge opens; there is no entanglement. Power depends upon the axle of a big cart.",
+          "changingText": "Obstacles are removed easily when you are aligned with the right path."
+        },
+        {
+          "position": 5,
+          "baseText": "Loses the goat with ease. No remorse.",
+          "changingText": "Developing strength without aggression. Power is used effortlessly."
+        },
+        {
+          "position": 6,
+          "baseText": "A goat butts against a hedge. It cannot go backward, it cannot go forward. Nothing serves to further. If one notes the difficulty, this brings good fortune.",
+          "changingText": "You are stuck. Acknowledge your predicament to find a way out."
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "name": "Progress (Jin)",
+      "chineseName": "晉",
+      "pinyin": "Jìn",
+      "judgment": "Progress. The powerful prince is honored with horses in large numbers. In a single day he is granted audience three times.",
+      "image": "The sun rises over the earth: The image of Progress. Thus the superior man himself brightens his bright virtue.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Progressing, but turned back. Perseverance brings good fortune. If one meets with no confidence, one should remain calm. No mistake.",
+          "changingText": "Setbacks are temporary. Maintain your integrity even when others doubt you."
+        },
+        {
+          "position": 2,
+          "baseText": "Progressing, but in sorrow. Perseverance brings good fortune. One obtains great happiness from one's ancestress.",
+          "changingText": "Even in difficult times, perseverance leads to eventual success and support."
+        },
+        {
+          "position": 3,
+          "baseText": "All are in accord. Remorse disappears.",
+          "changingText": "When everyone works together, regret vanishes and progress is swift."
+        },
+        {
+          "position": 4,
+          "baseText": "Progress like a hamster. Perseverance brings danger.",
+          "changingText": "Hoarding resources or hiding away is dangerous properly. Come out into the light."
+        },
+        {
+          "position": 5,
+          "baseText": "Remorse disappears. Take not gain and loss to heart. Undertakings bring good fortune. Everything serves to further.",
+          "changingText": "Do not worry about immediate results. Focus on the work and success will follow."
+        },
+        {
+          "position": 6,
+          "baseText": "Making progress with the horns is permissible only for the purpose of punishing one's own city. To be conscious of danger brings good fortune. No blame. Perseverance brings humiliation.",
+          "changingText": "Aggressive progress should be turned inward to correct faults, not outward to dominate."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "name": "Darkening of the Light (Ming Yi)",
+      "chineseName": "明夷",
+      "pinyin": "Míng Yí",
+      "judgment": "Darkening of the Light. In adversity it furthers one to be persevering.",
+      "image": "The light has sunk into the earth: The image of Darkening of the Light. Thus the superior man lives with the great mass: he veils his light, yet still shines.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Darkening of the light during flight. He lowers his wings. The superior man does not eat for three days on his wanderings. But he has somewhere to go. The host has occasion to gossip about him.",
+          "changingText": "When circumstances are hostile, withdraw and endure without compromising your principles."
+        },
+        {
+          "position": 2,
+          "baseText": "Darkening of the light injures him in the left thigh. He gives aid with the strength of a horse. Good fortune.",
+          "changingText": "You are hurt but still strong. Use your remaining strength to help others."
+        },
+        {
+          "position": 3,
+          "baseText": "Darkening of the light during the hunt in the south. Their great leader is captured. One must not expect perseverance too soon.",
+          "changingText": "A major obstacle is removed, but full recovery will take time."
+        },
+        {
+          "position": 4,
+          "baseText": "He penetrates the left side of the belly. One gets at the very heart of the darkening of the light.",
+          "changingText": "You see the root of the problem. Understanding the source of darkness is the first step to overcoming it."
+        },
+        {
+          "position": 5,
+          "baseText": "Darkening of the light as with Prince Ji. Perseverance furthers.",
+          "changingText": "Concealing your brilliance to survive dangerous times is wisdom, not cowardice."
+        },
+        {
+          "position": 6,
+          "baseText": "Not light but darkness. First he climbed up to heaven, then he plunged into the depths of the earth.",
+          "changingText": "Absolute darkness cannot last. The turning point is near."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "name": "The Family (Jia Ren)",
+      "chineseName": "家人",
+      "pinyin": "Jiā Rén",
+      "judgment": "The Family. The perseverance of the woman furthers.",
+      "image": "Wind emerges from fire: The image of The Family. Thus the superior man has substance in his words and duration in his way of life.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Firm seclusion within the family. Remorse disappears.",
+          "changingText": "Establishing clear rules and boundaries early prevents regret later."
+        },
+        {
+          "position": 2,
+          "baseText": "She should not follow her whims. She must attend within to the food. Perseverance brings good fortune.",
+          "changingText": "Focus on your duties and the needs of others rather than personal desires."
+        },
+        {
+          "position": 3,
+          "baseText": "When tempers flare up in the family, too great severity brings remorse. Good fortune nonetheless. When woman and children dally and laugh, it leads in the end to humiliation.",
+          "changingText": "Discipline is better than laxity, even if it causes temporary friction."
+        },
+        {
+          "position": 4,
+          "baseText": "She is the treasure of the house. Great good fortune.",
+          "changingText": "Contribution to the well-being of the group brings great rewards."
+        },
+        {
+          "position": 5,
+          "baseText": "As a king he approaches his family. Fear not. Good fortune.",
+          "changingText": "Leading with love and authority creates a harmonious environment."
+        },
+        {
+          "position": 6,
+          "baseText": "His work commands respect. In the end good fortune.",
+          "changingText": "Acting with sincerity and dignity earns the respect of all."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "name": "Opposition (Kui)",
+      "chineseName": "睽",
+      "pinyin": "Kuí",
+      "judgment": "Opposition. In small matters, good fortune.",
+      "image": "Fire above, lake below: The image of Opposition. Thus the superior man retains his individuality.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Remorse disappears. If you lose your horse, do not run after it; it will come back of its own accord. When you see evil people, guard yourself against mistakes.",
+          "changingText": "Do not force unity. Allow things to return to you naturally."
+        },
+        {
+          "position": 2,
+          "baseText": "One meets his lord in a narrow street. No blame.",
+          "changingText": "An unexpected encounter bridges the gap perfectly. Seize the moment."
+        },
+        {
+          "position": 3,
+          "baseText": "One sees the wagon dragged back, the oxen halted, a man's hair and nose cut off. Not a good beginning, but a good end.",
+          "changingText": "Things look bad at first, but patience reveals a positive outcome."
+        },
+        {
+          "position": 4,
+          "baseText": "Isolated through opposition, one meets a like-minded man with whom one can associate in good faith. Despite the danger, no blame.",
+          "changingText": "Finding a true ally in hostile times brings safety and comfort."
+        },
+        {
+          "position": 5,
+          "baseText": "Remorse disappears. The companion bites his way through the wrappings. If one goes to him, how could it be a mistake?",
+          "changingText": "Barriers to connection are broken down. Join forces with your ally."
+        },
+        {
+          "position": 6,
+          "baseText": "Isolated through opposition, one sees one's companion as a pig covered with dirt, as a wagon full of devils. First one draws a bow against him, then one lays the bow aside. He is not a robber; he will woo at the right time. As one goes, rain falls; then good fortune comes.",
+          "changingText": "Misunderstanding clouds your vision. Drop your defenses and see the truth."
+        }
+      ]
+    },
+    {
+      "number": 39,
+      "name": "Obstruction (Jian)",
+      "chineseName": "蹇",
+      "pinyin": "Jiǎn",
+      "judgment": "Obstruction. The southwest furthers. The northeast does not further. It furthers one to see the great man. Perseverance brings good fortune.",
+      "image": "Water on the mountain: The image of Obstruction. Thus the superior man turns his attention to himself and molds his character.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Going leads to obstructions, coming meets with praise.",
+          "changingText": "Retreating when faced with insurmountable obstacles is wise, not weak."
+        },
+        {
+          "position": 2,
+          "baseText": "The king's servant is beset by obstruction upon obstruction, but it is not his own fault.",
+          "changingText": "You are facing difficulties for the sake of a higher cause. Persevere."
+        },
+        {
+          "position": 3,
+          "baseText": "Going leads to obstructions; coming leads to the great man.",
+          "changingText": "Return to your source of strength and support rather than pushing forward blindly."
+        },
+        {
+          "position": 4,
+          "baseText": "Going leads to obstructions, coming leads to union.",
+          "changingText": "Join with others to overcome the difficulty. Solitary action will fail."
+        },
+        {
+          "position": 5,
+          "baseText": "In the midst of the greatest obstructions, friends come.",
+          "changingText": "Help arrives when it is most needed. You are not alone."
+        },
+        {
+          "position": 6,
+          "baseText": "Going leads to obstructions, coming leads to great good fortune. It furthers one to see the great man.",
+          "changingText": "Turning back leads to a complete solution. Seek guidance from the wise."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "name": "Deliverance (Xie)",
+      "chineseName": "解",
+      "pinyin": "Xiè",
+      "judgment": "Deliverance. The southwest furthers. If there is no longer anything where one has to go, return brings good fortune. If there is still something where one has to go, hastening brings good fortune.",
+      "image": "Thunder and rain set in: The image of Deliverance. Thus the superior man pardons mistakes and forgives misdeeds.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Without blame.",
+          "changingText": "The time of difficulty is over. Rest and recover."
+        },
+        {
+          "position": 2,
+          "baseText": "One kills three foxes in the field and receives a yellow arrow. Perseverance brings good fortune.",
+          "changingText": "Eliminating the source of deception brings clarity and straightness."
+        },
+        {
+          "position": 3,
+          "baseText": "If a man carries a burden on his back and nonetheless rides in a carriage, he thereby encourages robbers to approach. Perseverance leads to humiliation.",
+          "changingText": "Inappropriate behavior invites trouble. Act according to your station."
+        },
+        {
+          "position": 4,
+          "baseText": "Deliver yourself from your great toe. Then the companion comes, and him you can trust.",
+          "changingText": "Cut ties with inferior people to make room for true friends."
+        },
+        {
+          "position": 5,
+          "baseText": "If only the superior man can deliver himself, it brings good fortune. Thus he proves to inferior men that he is in earnest.",
+          "changingText": "True freedom comes from inner resolution. Your example influences others."
+        },
+        {
+          "position": 6,
+          "baseText": "The prince shoots at a hawk on a high wall. He kills it. Everything serves to further.",
+          "changingText": "Decisive action removes the final obstacle. Success is achieved."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "name": "Decrease (Sun)",
+      "chineseName": "損",
+      "pinyin": "Sǔn",
+      "judgment": "Decrease combined with sincerity brings about supreme good fortune without blame. One may be persevering in this. It furthers one to undertake something. How is this to be carried out? One may use two small bowls for the sacrifice.",
+      "image": "The mountain below the lake: The image of Decrease. Thus the superior man controls his anger and restrains his instincts.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Going quickly when one's tasks are finished is without blame. But one must reflect on how much one may decrease others.",
+          "changingText": "Helping others is good, but consider the impact. Do not overstep quickly."
+        },
+        {
+          "position": 2,
+          "baseText": "It furthers one to undertake something. To decrease oneself without decreasing others brings no blame.",
+          "changingText": "Self-sacrifice that does not harm others is noble. Improve yourself to help the whole."
+        },
+        {
+          "position": 3,
+          "baseText": "When three people journey together, their number decreases by one. When one man journeys alone, he finds a companion.",
+          "changingText": "Close relationships require intimacy that crowds cannot provide. Choose your closest ally."
+        },
+        {
+          "position": 4,
+          "baseText": "If a man decreases his faults, it makes the other hasten to come and rejoice. No blame.",
+          "changingText": "Acknowledging and correcting your own faults attracts help and joy."
+        },
+        {
+          "position": 5,
+          "baseText": "Someone does indeed increase him. Ten pairs of tortoises cannot oppose it. Supreme good fortune.",
+          "changingText": "Blessings come naturally when you are in alignment with the good. Accept them with gratitude."
+        },
+        {
+          "position": 6,
+          "baseText": "If one is increased without depriving others, there is no blame. Perseverance brings good fortune. It furthers one to undertake something. One obtains servants but no longer has a separate home.",
+          "changingText": "Universal gain. Benefiting yourself while benefiting others creates lasting success."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "name": "Increase (Yi)",
+      "chineseName": "益",
+      "pinyin": "Yì",
+      "judgment": "Increase. It furthers one to undertake something. It furthers one to cross the great water.",
+      "image": "Wind and thunder: The image of Increase. Thus the superior man: if he sees good, he imitates it; if he has faults, he rids himself of them.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "It furthers one to accomplish great deeds. Supreme good fortune. No blame.",
+          "changingText": "When fortune favors you, use the opportunity to do significant work."
+        },
+        {
+          "position": 2,
+          "baseText": "Someone does indeed increase him; ten pairs of tortoises cannot oppose it. Constant perseverance brings good fortune. The king presents him before God. Good fortune.",
+          "changingText": "Your virtue attracts support from all directions. Remain steadfast."
+        },
+        {
+          "position": 3,
+          "baseText": "One is enriched through unfortunate events. No blame, if you are sincere and walk in the middle, and report with a seal to the prince.",
+          "changingText": "Crisis can lead to growth. Use difficulties as opportunities for enrichment."
+        },
+        {
+          "position": 4,
+          "baseText": "If you walk in the middle and report to the prince, he will follow. It furthers one to be used in the removal of the capital.",
+          "changingText": "You are trusted to handle important matters. Your advice is heeded."
+        },
+        {
+          "position": 5,
+          "baseText": "If you are sincere and kindhearted, you need not ask. Supreme good fortune. All virtues will indeed be yours.",
+          "changingText": "Kindness is its own reward and brings unexpected blessings."
+        },
+        {
+          "position": 6,
+          "baseText": "He brings increase to no one. Indeed, someone even strikes him. He does not keep his heart constantly steady. Misfortune.",
+          "changingText": "Selfishness leads to isolation and attack. Generosity protects."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "name": "Breakthrough (Guai)",
+      "chineseName": "夬",
+      "pinyin": "Guài",
+      "judgment": "Breakthrough. One must resolutely make the matter known at the court of the king. It must be announced truthfully. Danger. It is necessary to notify one's own city. It does not further to resort to arms. It furthers one to undertake something.",
+      "image": "The lake has risen up to heaven: The image of Breakthrough. Thus the superior man dispenses riches downward and refrains from resting on his virtue.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Mighty in the forward-striding toes. When one goes and is not equal to the task, one makes a mistake.",
+          "changingText": "Do not advance if you are not prepared. Check your strength first."
+        },
+        {
+          "position": 2,
+          "baseText": "A cry of alarm. Arms at evening and at night. Fear nothing.",
+          "changingText": "Stay alert and prepared. Vigilance prevents disaster."
+        },
+        {
+          "position": 3,
+          "baseText": "To be powerful in the cheekbones brings misfortune. The superior man is firmly resolved. He walks alone and is caught in the rain. He is splattered and people murmur against him. No blame.",
+          "changingText": "Resoluteness may be misunderstood. Stay true to your path even if others criticize you."
+        },
+        {
+          "position": 4,
+          "baseText": "There is no skin on his thighs, and walking comes hard. If one were to let himself be led like a sheep, remorse would disappear. But if these words are heard they will not be believed.",
+          "changingText": "Stubbornness makes progress difficult. Relax and follow the flow."
+        },
+        {
+          "position": 5,
+          "baseText": "In dealing with weeds, firm resolution is necessary. Walking in the middle remains free of blame.",
+          "changingText": "Root out negative influences completely. Do not compromise."
+        },
+        {
+          "position": 6,
+          "baseText": "No cry. In the end misfortune comes.",
+          "changingText": "Failure to address the problem in time leads to unavoidable failure."
+        }
+      ]
+    },
+    {
+      "number": 44,
+      "name": "Coming to Meet (Gou)",
+      "chineseName": "姤",
+      "pinyin": "Gòu",
+      "judgment": "Coming to Meet. The maiden is powerful. One should not marry such a maiden.",
+      "image": "Under heaven, wind: The image of Coming to Meet. Thus does the prince act when disseminating his commands and proclaiming them to the four quarters.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "It must be checked with a brake of bronze. Perseverance brings good fortune. If one lets it take its course, one experiences misfortune. Even a lean pig has it in him to rage around.",
+          "changingText": "Nip the problem in the bud. Restraint is necessary right from the start."
+        },
+        {
+          "position": 2,
+          "baseText": "There is a fish in the tank. No blame. Does not further guests.",
+          "changingText": "Keep your resources secure. Do not share prematurely with those who might misuse them."
+        },
+        {
+          "position": 3,
+          "baseText": "There is no skin on his thighs, and walking comes hard. If one remains mindful of the danger, no great mistake is made.",
+          "changingText": "Temptation is strong but dangerous. Stay away to avoid trouble."
+        },
+        {
+          "position": 4,
+          "baseText": "No fish in the tank. This leads to misfortune.",
+          "changingText": "Isolation from the people or resources leads to loss. Stay connected."
+        },
+        {
+          "position": 5,
+          "baseText": "A melon covered with willow leaves. Hidden lines. Then it drops down to one from heaven.",
+          "changingText": "Protect your inner virtue. True value is recognized in its own time."
+        },
+        {
+          "position": 6,
+          "baseText": "He comes to meet with his horns. Humiliation. No blame.",
+          "changingText": "Aggressive confrontation alienates others. Withdraw with dignity."
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "name": "Gathering Together (Cui)",
+      "chineseName": "萃",
+      "pinyin": "Cuì",
+      "judgment": "Gathering Together. Success. The king approaches his temple. It furthers one to see the great man. This brings success. Perseverance furthers. To bring great offerings creates good fortune. It furthers one to undertake something.",
+      "image": "Over the earth, the lake: The image of Gathering Together. Thus the superior man renews his weapons in order to meet the unforeseen.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "If you are sincere, but not to the end, there will sometimes be confusion, sometimes gathering. If you call out, then after one grasp of the hand you can laugh again. Regret not. Going is without blame.",
+          "changingText": "Indecision causes instability. Commit fully to the group to find joy."
+        },
+        {
+          "position": 2,
+          "baseText": "Letting oneself be drawn brings good fortune and remains without blame. If one is sincere, it furthers one to bring even a small offering.",
+          "changingText": "Follow the attraction of the good. Sincerity is more important than the size of your contribution."
+        },
+        {
+          "position": 3,
+          "baseText": "Gathering together amid sighs. Nothing that would further. To go is without blame. Slight humiliation.",
+          "changingText": "You feel out of place. It is okay to join even if it feels awkward at first."
+        },
+        {
+          "position": 4,
+          "baseText": "Great good fortune. No blame.",
+          "changingText": "Your position is creating unity. This brings success to all."
+        },
+        {
+          "position": 5,
+          "baseText": "If in gathering together one has station, this brings no blame. If there are some who are not yet sincere in the work, sublime and enduring perseverance is needed. Then remorse disappears.",
+          "changingText": "Trust must be earned. Lead by example to win over the doubters."
+        },
+        {
+          "position": 6,
+          "baseText": "Lamenting and sighing, floods of tears. No blame.",
+          "changingText": "Expressing your grief allows you to move through it. Release is necessary for gathering."
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "name": "Pushing Upward (Sheng)",
+      "chineseName": "升",
+      "pinyin": "Shēng",
+      "judgment": "Pushing Upward has supreme success. One must see the great man. Fear not. Departure toward the south brings good fortune.",
+      "image": "Within the earth, wood grows: The image of Pushing Upward. Thus the superior man of devoted character heaps up small things in order to achieve something high and great.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Pushing upward that meets with confidence brings great good fortune.",
+          "changingText": "Support from others allows you to rise quickly. Accept their help."
+        },
+        {
+          "position": 2,
+          "baseText": "If one is sincere, it furthers one to bring even a small offering. No blame.",
+          "changingText": "Sincerity opens doors even with limited resources."
+        },
+        {
+          "position": 3,
+          "baseText": "One pushes upward into an empty city.",
+          "changingText": "Progress is easy because there is no resistance. Do not assistitate."
+        },
+        {
+          "position": 4,
+          "baseText": "The king offers him Mount Qi. Good fortune. No blame.",
+          "changingText": "Your service is recognized and rewarded. Continue your devoted work."
+        },
+        {
+          "position": 5,
+          "baseText": "Perseverance brings good fortune. One pushes upward by steps.",
+          "changingText": "Steady, gradual progress is sustainable. Do not skip steps."
+        },
+        {
+          "position": 6,
+          "baseText": "Pushing upward in darkness. It furthers one to be unremittingly persevering.",
+          "changingText": "Stay true to your course even if you cannot see the result yet. Blind impulse is dangerous."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "name": "Oppression (Kun)",
+      "chineseName": "困",
+      "pinyin": "Kùn",
+      "judgment": "Oppression. Success. Perseverance. The great man brings about good fortune. No blame. When one has something to say, it is not believed.",
+      "image": "There is no water in the lake: The image of Exhaustion. Thus the superior man stakes his life on following his will.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "One sits oppressed under a bare tree and strays into a gloomy valley. For three years one sees nothing.",
+          "changingText": "Despair leads to isolation. Do not get lost in your own darkness."
+        },
+        {
+          "position": 2,
+          "baseText": "One is oppressed while at meat and drink. The man with the scarlet knee bands is just coming. It furthers one to offer sacrifice. To set forth brings misfortune. No blame.",
+          "changingText": "Even in abundance, you feel empty. A spiritual solution is needed."
+        },
+        {
+          "position": 3,
+          "baseText": "A man permits himself to be oppressed by stone, and leans on thorns and thistles. He enters his house and does not see his wife. Misfortune.",
+          "changingText": "Stubbornness creates its own prison. You rely on things that hurt you."
+        },
+        {
+          "position": 4,
+          "baseText": "He comes quietly, oppressed in a golden carriage. Humiliation, but the end is reached.",
+          "changingText": "Help is coming slowly. Have patience; the ordeal will end."
+        },
+        {
+          "position": 5,
+          "baseText": "His nose and feet are cut off. Oppression at the hands of the man with the purple knee bands. Joy comes softly. It furthers one to make offerings and libations.",
+          "changingText": "Severe restrictions are imposed. Find joy in spiritual practice."
+        },
+        {
+          "position": 6,
+          "baseText": "He is oppressed by creeping vines. He moves uncertainly and says, 'Movement brings remorse.' If one feels remorse at this and makes a start, good fortune comes.",
+          "changingText": "You are entangled in your own doubts. Break free by taking action."
+        }
+      ]
+    },
+    {
+      "number": 48,
+      "name": "The Well (Jing)",
+      "chineseName": "井",
+      "pinyin": "Jǐng",
+      "judgment": "The Well. The town may be changed, but the well cannot be changed. It neither decreases nor increases. They come and go and draw from the well. If one gets down almost to the water and the rope does not go all the way, or the jug breaks, it brings misfortune.",
+      "image": "Water over wood: The image of The Well. Thus the superior man encourages the people at their work, and exhorts them to help one another.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The mud of the well is not drunk. No animals come to an old well.",
+          "changingText": "Neglecting your inner source makes you useless to others. Clean out the mud."
+        },
+        {
+          "position": 2,
+          "baseText": "At the wellhole one shoots fishes. The jug is broken and leads.",
+          "changingText": "Your potential is wasted on trivialities. Repair your vessel."
+        },
+        {
+          "position": 3,
+          "baseText": "The well is cleaned, but no one drinks from it. This is my heart's sorrow, for one might draw from it. If the king were clear-minded, good fortune might be enjoyed in common.",
+          "changingText": "Your talents are ready but unrecognized. Wait for the right opportunity."
+        },
+        {
+          "position": 4,
+          "baseText": "The well is being lined. No blame.",
+          "changingText": "Self-cultivation and repair are necessary. Prepare yourself for service."
+        },
+        {
+          "position": 5,
+          "baseText": "In the well there is a clear, cold spring from which one can drink.",
+          "changingText": "Your wisdom is pure and available to all. Share it freely."
+        },
+        {
+          "position": 6,
+          "baseText": "One draws from the well without hindrance. It is dependable. Supreme good fortune.",
+          "changingText": "Continuous, inexhaustible service brings the highest success."
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "name": "Revolution (Ge)",
+      "chineseName": "革",
+      "pinyin": "Gé",
+      "judgment": "Revolution. On your own day you are believed. Supreme success. Furthering through perseverance. Remorse disappears.",
+      "image": "Fire in the lake: The image of Revolution. Thus the superior man sets the calendar in order and makes the seasons clear.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Wrapped in the hide of a yellow cow.",
+          "changingText": "Restrain yourself. The time is not yet ripe for action."
+        },
+        {
+          "position": 2,
+          "baseText": "When one's own day comes, one may create revolution. Starting brings good fortune. No blame.",
+          "changingText": "Prepare well, and when the moment is right, act decisively."
+        },
+        {
+          "position": 3,
+          "baseText": "Starting brings misfortune. Perseverance brings danger. When talk of revolution has gone the rounds three times, one may commit himself, and men will believe him.",
+          "changingText": "Wait for consensus. Premature action leads to disaster."
+        },
+        {
+          "position": 4,
+          "baseText": "Remorse disappears. Men believe him. Changing the form of government brings good fortune.",
+          "changingText": "You have the trust needed to make major changes. Proceed with confidence."
+        },
+        {
+          "position": 5,
+          "baseText": "The great man changes like a tiger. Even before he consults the oracle he is believed.",
+          "changingText": "Your transformation is visible and commanding. Others follow naturally."
+        },
+        {
+          "position": 6,
+          "baseText": "The superior man changes like a panther. The inferior man molts in the face. Starting brings misfortune. To remain persevering brings good fortune.",
+          "changingText": "Refine the changes. For those who cannot truly change, compliance is enough."
+        }
+      ]
+    },
+    {
+      "number": 50,
+      "name": "The Cauldron (Ding)",
+      "chineseName": "鼎",
+      "pinyin": "Dǐng",
+      "judgment": "The Cauldron. Supreme good fortune. Success.",
+      "image": "Fire over wood: The image of The Cauldron. Thus the superior man consolidates his fate by making his position correct.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The cauldron is turned upside down. Furthering removal of stagnating stuff. One takes a concubine for the sake of her son. No blame.",
+          "changingText": "Clear out the old to make way for the new. Unconventional methods may work."
+        },
+        {
+          "position": 2,
+          "baseText": "The cauldron is filled. My comrades are envious, but they cannot harm me. Good fortune.",
+          "changingText": "You have substance. Ignore the envy of others and continue your work."
+        },
+        {
+          "position": 3,
+          "baseText": "The handle of the cauldron is altered. One is impeded in his way of life. The fat of the pheasant is not eaten. Once rain falls, remorse is spent. Good fortune comes.",
+          "changingText": "Changes cause temporary difficulty. Have patience; things will smooth out."
+        },
+        {
+          "position": 4,
+          "baseText": "The legs of the cauldron are broken. The prince's meal is spilled and his person is soiled. Misfortune.",
+          "changingText": "Incompetence in a position of responsibility leads to disaster."
+        },
+        {
+          "position": 5,
+          "baseText": "The cauldron has yellow handles, golden carrying rings. Perseverance furthers.",
+          "changingText": "Modest leadership that is well-supported brings long-term success."
+        },
+        {
+          "position": 6,
+          "baseText": "The cauldron has rings of jade. Great good fortune. Nothing that would not act to further.",
+          "changingText": "Mildness combined with wisdom brings the highest blessing."
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "name": "The Arousing (Shock, Thunder) (Zhen)",
+      "chineseName": "震",
+      "pinyin": "Zhèn",
+      "judgment": "The Arousing. Success. Shock comes 'oh, oh!' Laughing words 'ha, ha!' The shock terrifies for a hundred miles, and he does not let fall the sacrificial spoon and chalice.",
+      "image": "Thunder repeated: The image of Shock. Thus in fear and trembling the superior man sets his life in order and examines himself.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Shock comes 'oh, oh!' Then laughing words 'ha, ha!' Good fortune.",
+          "changingText": "Initial fear leads to subsequent relief and joy. Do not be paralyzed by the shock."
+        },
+        {
+          "position": 2,
+          "baseText": "Shock comes bringing danger. A hundred thousand times you lose your treasures and must climb the nine hills. Do not go in pursuit of them. After seven days you will get them back again.",
+          "changingText": "Major upheaval. Save yourself, let possessions go. They will return in time."
+        },
+        {
+          "position": 3,
+          "baseText": "Shock comes and makes one distraught. If shock spurs to action one remains free of misfortune.",
+          "changingText": "Let the shock wake you up. Action dispels panic."
+        },
+        {
+          "position": 4,
+          "baseText": "Shock is mired.",
+          "changingText": "You are stuck in the mud of your own fear. Movement is difficult but necessary."
+        },
+        {
+          "position": 5,
+          "baseText": "Shock goes hither and thither. Danger. However, nothing at all is lost. Yet there are things to be done.",
+          "changingText": "Chaos surrounds you, but you remain centered. Focus on what needs to be done."
+        },
+        {
+          "position": 6,
+          "baseText": "Shock brings ruin and terrified gazing around. Going ahead brings misfortune. If it has not yet reached one's own body but has reached one's neighbor first, there is no blame. One's comrades have something to talk about.",
+          "changingText": "The danger is extreme. Stay still and learn from the misfortunes of others."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "name": "Keeping Still, Mountain (Gen)",
+      "chineseName": "艮",
+      "pinyin": "Gèn",
+      "judgment": "Keeping Still. Keeping his back still so that he no longer feels his body. He goes into the courtyard and does not see his people. No blame.",
+      "image": "Mountains standing close together: The image of Keeping Still. Thus the superior man does not permit his thoughts to go beyond his situation.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Keeping his toes still. No blame. Continued perseverance furthers.",
+          "changingText": "Calculated inaction at the start avoids mistakes. Look before you leap."
+        },
+        {
+          "position": 2,
+          "baseText": "Keeping his calves still. He cannot rescue him whom he follows. His heart is not glad.",
+          "changingText": "You are forced to stop by circumstances or superiors. Accept it despite the frustration."
+        },
+        {
+          "position": 3,
+          "baseText": "Keeping his hips still. Making his sacrum stiff. Dangerous. The heart suffocates.",
+          "changingText": "Forced stillness causes tension. Relaxation is needed to avoid injury."
+        },
+        {
+          "position": 4,
+          "baseText": "Keeping his trunk still. No blame.",
+          "changingText": "Stillness in the center brings peace and stability."
+        },
+        {
+          "position": 5,
+          "baseText": "Keeping his jaws still. The words have order. Remorse disappears.",
+          "changingText": "Careful speech prevents regret. Silence is often golden."
+        },
+        {
+          "position": 6,
+          "baseText": "Noblehearted keeping still. Good fortune.",
+          "changingText": "Complete stillness and inner peace bring the highest good fortune."
+        }
+      ]
+    },
+    {
+      "number": 53,
+      "name": "Development (Gradual Progress) (Jian)",
+      "chineseName": "漸",
+      "pinyin": "Jiàn",
+      "judgment": "Development. The maiden is given in marriage. Good fortune. Perseverance furthers.",
+      "image": "On the mountain, a tree: The image of Development. Thus the superior man abides in dignity and virtue, in order to improve the mores.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The wild goose gradually draws near the shore. The young son is in danger. There is talk. No blame.",
+          "changingText": "A tentative start. Criticism may arise, but ignore it and proceed carefully."
+        },
+        {
+          "position": 2,
+          "baseText": "The wild goose gradually draws near the cliff. Eating and drinking in peace and concord. Good fortune.",
+          "changingText": "You have reached a safe place. Enjoy the security and ample provision."
+        },
+        {
+          "position": 3,
+          "baseText": "The wild goose gradually draws near the plateau. The man goes forth and does not return. The woman carries a child but does not bring it forth. Misfortune. It furthers one to fight off robbers.",
+          "changingText": "Progress stalls. Relationships or projects may fail. Protect what is yours."
+        },
+        {
+          "position": 4,
+          "baseText": "The wild goose gradually draws near the tree. Perhaps it will find a flat branch. No blame.",
+          "changingText": "You find a resting place, though it may not be perfect. It is safe for now."
+        },
+        {
+          "position": 5,
+          "baseText": "The wild goose gradually draws near the summit. For three years the woman has no child. In the end nothing can hinder her. Good fortune.",
+          "changingText": "Delays and misunderstandings separate you from your goal. Perseverance leads to reunion."
+        },
+        {
+          "position": 6,
+          "baseText": "The wild goose gradually draws near the cloud heights. Its feathers can be used for the sacred dance. Good fortune.",
+          "changingText": "Your success transcends personal gain and serves as an inspiration to others."
+        }
+      ]
+    },
+    {
+      "number": 54,
+      "name": "The Marrying Maiden (Gui Mei)",
+      "chineseName": "歸妹",
+      "pinyin": "Guī Mèi",
+      "judgment": "The Marrying Maiden. Undertakings bring misfortune. Nothing that would further.",
+      "image": "Thunder over the lake: The image of The Marrying Maiden. Thus the superior man understands the transitory in the light of the eternity of the end.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The marrying maiden as a concubine. A lame man who is able to tread. Undertakings bring good fortune.",
+          "changingText": "Accept a secondary position if it allows you to be useful. Humility brings success."
+        },
+        {
+          "position": 2,
+          "baseText": "A one-eyed man who is able to see. The perseverance of a solitary man furthers.",
+          "changingText": "Loyalty to one's duty, even in isolation or with limited vision, is honorable."
+        },
+        {
+          "position": 3,
+          "baseText": "The marrying maiden as a slave. She marries as a concubine.",
+          "changingText": "Your position is low and your options are few. Accept the situation for now."
+        },
+        {
+          "position": 4,
+          "baseText": "The marrying maiden draws out the allotted time. A late marriage comes in due course.",
+          "changingText": "Waiting for the right opportunity is better than rushing into a bad one."
+        },
+        {
+          "position": 5,
+          "baseText": "The sovereign I gives his daughter in marriage. The embroidered garments of the princess are not as gorgeous as those of the servingmaid. The moon that is nearly full brings good fortune.",
+          "changingText": "True worth is inner, not outer. Modesty in high station brings blessings."
+        },
+        {
+          "position": 6,
+          "baseText": "The woman holds the basket, but there are no fruits in it. The man stabs the sheep, but no blood flows. Nothing that would further.",
+          "changingText": "Empty forms without substance. The relationship or project is barren."
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "name": "Abundance (Feng)",
+      "chineseName": "豐",
+      "pinyin": "Fēng",
+      "judgment": "Abundance has success. The king attains abundance. Be not sad. Be like the sun at midday.",
+      "image": "Both thunder and lightning come: The image of Abundance. Thus the superior man decides lawsuits and carries out punishments.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "When a man meets his destined ruler, they can be together ten days, and it is not a mistake. Going meets with recognition.",
+          "changingText": "A time of peak opportunity. Seize the moment and connect with those who can help."
+        },
+        {
+          "position": 2,
+          "baseText": "The curtain is of such fullness that the polestars can be seen at noon. Through going one meets with doubt and hate. If one rouses him through truth, good fortune comes.",
+          "changingText": "Your brilliance is obscured by circumstances. Trust in truth to clear the air."
+        },
+        {
+          "position": 3,
+          "baseText": "The underbrush is of such abundance that the small stars can be seen at noon. He breaks his right arm. No blame.",
+          "changingText": "Obstacles prevent you from acting effectively. Accept the temporary limitation."
+        },
+        {
+          "position": 4,
+          "baseText": "The curtain is of such fullness that the polestars can be seen at noon. He meets his ruler, who is of like kind. Good fortune.",
+          "changingText": "Darkness begins to life. You find a kindred spirit who understands you."
+        },
+        {
+          "position": 5,
+          "baseText": "Lines are coming, blessings and fame draw near. Good fortune.",
+          "changingText": "The time of abundance is here. Success, fame, and blessings arrive."
+        },
+        {
+          "position": 6,
+          "baseText": "He has abundance in his house. He screens off his family. He peers through the gate and no longer perceives anyone. For three years he sees nothing. Misfortune.",
+          "changingText": "Arrogance and isolation lead to downfall. Share your abundance or lose it."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "name": "The Wanderer (Lu)",
+      "chineseName": "旅",
+      "pinyin": "Lǚ",
+      "judgment": "The Wanderer. Success through smallness. Perseverance brings good fortune to the wanderer.",
+      "image": "Fire on the mountain: The image of The Wanderer. Thus the superior man is clear-minded and cautious in imposing penalties, and protracts no lawsuits.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "If the wanderer busies himself with trivial things, he draws down misfortune upon himself.",
+          "changingText": "Do not get distracted by petty details. Keep your main goal in mind."
+        },
+        {
+          "position": 2,
+          "baseText": "The wanderer comes to an inn. He has his property with him. He wins the steadfastness of a young servant.",
+          "changingText": "You find a safe resting place and reliable help. Use this respite wisely."
+        },
+        {
+          "position": 3,
+          "baseText": "The wanderer's inn burns down. He loses the steadfastness of his young servant. Danger.",
+          "changingText": "Carelessness leads to loss of support and shelter. Be more vigilant."
+        },
+        {
+          "position": 4,
+          "baseText": "The wanderer rests in a shelter. He obtains his property and an ax. My heart is not glad.",
+          "changingText": "You have security, but you feel defensive and unhappy. Something is missing."
+        },
+        {
+          "position": 5,
+          "baseText": "He shoots a pheasant. It drops with the first arrow. In the end this leads to praise and office.",
+          "changingText": "Skill and timing bring success. You reach your goal."
+        },
+        {
+          "position": 6,
+          "baseText": "The bird's nest burns up. The wanderer laughs at first, then must needs lament and weep. Through carelessness he loses his cow. Misfortune.",
+          "changingText": "Arrogance leads to the loss of your resting place. Humility is essential for the wanderer."
+        }
+      ]
+    },
+    {
+      "number": 57,
+      "name": "The Gentle (The Penetrating, Wind) (Xun)",
+      "chineseName": "巽",
+      "pinyin": "Xùn",
+      "judgment": "The Gentle. Success through what is small. It furthers one to have somewhere to go. It furthers one to see the great man.",
+      "image": "Winds following one upon the other: The image of The Gentle. Thus the superior man spreads his commands abroad and carries out his undertakings.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "In advancing and in retreating, the perseverance of a warrior furthers.",
+          "changingText": "Indecision is weak. Be decisive like a warrior once you have chosen a path."
+        },
+        {
+          "position": 2,
+          "baseText": "Penetration under the bed. Priests and magicians are used in great number. Good fortune. No blame.",
+          "changingText": "Revealing hidden things requires special effort. Seek expert guidance."
+        },
+        {
+          "position": 3,
+          "baseText": "Repeated penetration. Humiliation.",
+          "changingText": "Excessive probing or overthinking leads to paralysis and shame. Act."
+        },
+        {
+          "position": 4,
+          "baseText": "Remorse disappears. During the hunt three kinds of game are caught.",
+          "changingText": "Success comes from persistent, gentle effort. You achieve multiple goals."
+        },
+        {
+          "position": 5,
+          "baseText": "Perseverance brings good fortune. Remorse disappears. Nothing that does not further. No beginning, but an end. Before the change, three days. After the change, three days. Good fortune.",
+          "changingText": "Consistent effort pays off. Prepare well for changes and follow through."
+        },
+        {
+          "position": 6,
+          "baseText": "Penetration under the bed. He loses his property and his ax. Perseverance brings misfortune.",
+          "changingText": "Digging too deep uncovers things best left hidden. You lose your means of defense."
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "name": "The Joyous, Lake (Dui)",
+      "chineseName": "兌",
+      "pinyin": "Duì",
+      "judgment": "The Joyous. Success. Perseverance furthers.",
+      "image": "Lakes resting one on the other: The image of The Joyous. Thus the superior man joins with his friends for discussion and practice.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Contented joyousness. Good fortune.",
+          "changingText": "Self-contained joy that needs nothing from outside is true happiness."
+        },
+        {
+          "position": 2,
+          "baseText": "Sincere joyousness. Good fortune. Remorse disappears.",
+          "changingText": "Joy shared with sincerity is deep and lasting. No regrets."
+        },
+        {
+          "position": 3,
+          "baseText": "Coming joyousness. Misfortune.",
+          "changingText": "Seeking joy from external sources leads to disappointment and dependency."
+        },
+        {
+          "position": 4,
+          "baseText": "Joyousness that is weighed is not at peace. After ridding oneself of mistakes a man has joy.",
+          "changingText": "Calculating joy kills it. Let go of doubts and simply enjoy."
+        },
+        {
+          "position": 5,
+          "baseText": "Sincerity toward disintegrating influences. Danger.",
+          "changingText": "Being too trusting of negative people puts you at risk. Guard your heart."
+        },
+        {
+          "position": 6,
+          "baseText": "Seductive joyousness.",
+          "changingText": "Beware of false pleasures that lead you astray. Stay grounded."
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "name": "Dispersion (Dissolution) (Huan)",
+      "chineseName": "渙",
+      "pinyin": "Huàn",
+      "judgment": "Dispersion. Success. The king approaches his temple. It furthers one to cross the great water. Perseverance furthers.",
+      "image": "The wind drives over the water: The image of Dispersion. Thus the kings of old sacrificed to the Lord and established temples.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "He brings help with the strength of a horse. Good fortune.",
+          "changingText": "Immediate action prevents dispersion. Strength saves the day."
+        },
+        {
+          "position": 2,
+          "baseText": "At the dissolution he hurries to that which supports him. Remorse disappears.",
+          "changingText": "When things fall apart, run to your source of security."
+        },
+        {
+          "position": 3,
+          "baseText": "He dissolves his self. No remorse.",
+          "changingText": "Letting go of the ego allows for a higher union. Selflessness brings peace."
+        },
+        {
+          "position": 4,
+          "baseText": "He dissolves his bond with his group. Supreme good fortune. Dispersion leads to accumulation. This is something that ordinary men do not think of.",
+          "changingText": "Leaving the small group allows you to join the universal. A higher perspective."
+        },
+        {
+          "position": 5,
+          "baseText": "His loud cries are as dissolving as sweat. Dissolution! A king abides without blame.",
+          "changingText": "A powerful release of tension clears the air. The leader remains steady."
+        },
+        {
+          "position": 6,
+          "baseText": "He dissolves his blood. Departing, keeping at a distance, going out, is without blame.",
+          "changingText": "Avoiding bloodshed by keeping distance is the path of wisdom."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "name": "Limitation (Jie)",
+      "chineseName": "節",
+      "pinyin": "Jié",
+      "judgment": "Limitation. Success. Galling limitation must not be persevered in.",
+      "image": "Water over the lake: The image of Limitation. Thus the superior man creates number and measure, and examines the nature of virtue and correct conduct.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Not going out of the door and the courtyard is without blame.",
+          "changingText": "Knowing when to stay within limits prevents error. Discretion is valor."
+        },
+        {
+          "position": 2,
+          "baseText": "Not going out of the gate and the courtyard brings misfortune.",
+          "changingText": "Staying inside when it is time to act leads to missed opportunities."
+        },
+        {
+          "position": 3,
+          "baseText": "He who knows no limitation will have cause to lament. No blame.",
+          "changingText": "Extravagance leads to regret. Accept necessary boundaries."
+        },
+        {
+          "position": 4,
+          "baseText": "Contented limitation. Success.",
+          "changingText": "Accepting limits with grace brings peace and success."
+        },
+        {
+          "position": 5,
+          "baseText": "Sweet limitation brings good fortune. Going brings esteem.",
+          "changingText": "Self-discipline that comes from understanding is easy and rewarding."
+        },
+        {
+          "position": 6,
+          "baseText": "Galling limitation. Perseverance brings misfortune. Remorse disappears.",
+          "changingText": "Limits that are too strict cause rebellion. Relax the rules slightly."
+        }
+      ]
+    },
+    {
+      "number": 61,
+      "name": "Inner Truth (Zhong Fu)",
+      "chineseName": "中孚",
+      "pinyin": "Zhōng Fú",
+      "judgment": "Inner Truth. Pigs and fishes. Good fortune. It furthers one to cross the great water. Perseverance furthers.",
+      "image": "Wind over lake: The image of Inner Truth. Thus the superior man discusses criminal cases in order to delay executions.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "Being prepared brings good fortune. If there are secret designs, it is disquieting.",
+          "changingText": "Inner stability and preparedness attract good fortune. Hidden agendas fail."
+        },
+        {
+          "position": 2,
+          "baseText": "A crane calling in the shade. Its young answers it. I have a good goblet. I will share it with you.",
+          "changingText": "True resonance connects sympathetic souls across any distance."
+        },
+        {
+          "position": 3,
+          "baseText": "He finds a comrade. Now he beats the drum, now he stops. Now he sobs, now he sings.",
+          "changingText": "Emotional dependency creates instability. Find your own center."
+        },
+        {
+          "position": 4,
+          "baseText": "The moon nearly full. The team horse goes astray. No blame.",
+          "changingText": "Humility allows the light to shine through. Let go of the lesser guide."
+        },
+        {
+          "position": 5,
+          "baseText": "He possesses truth, which links together. No blame.",
+          "changingText": "Universal truth connects everyone. Unity is achieved through shared integrity."
+        },
+        {
+          "position": 6,
+          "baseText": "Cockcrow penetrating to heaven. Perseverance brings misfortune.",
+          "changingText": "Empty words reach high but have no substance. Silence is better."
+        }
+      ]
+    },
+    {
+      "number": 62,
+      "name": "Preponderance of the Small (Xiao Guo)",
+      "chineseName": "小過",
+      "pinyin": "Xiǎo Guò",
+      "judgment": "Preponderance of the Small. Success. Perseverance furthers. Small things may be done; great things should not be done. The flying bird brings the message: It is not well to strive upward, it is well to remain below. Great good fortune.",
+      "image": "Thunder on the mountain: The image of Preponderance of the Small. Thus the superior man in his conduct gives preponderance to reverence. In bereavement he gives preponderance to grief. In his expenditures he gives preponderance to thrift.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "The bird meets with misfortune through flying.",
+          "changingText": "Trying to do too much too soon leads to failure. Stay low."
+        },
+        {
+          "position": 2,
+          "baseText": "She passes by her ancestor and meets her ancestress. He does not reach his prince and meets the official. No blame.",
+          "changingText": "Aim for the attainable. Bypassing protocol leads to better results here."
+        },
+        {
+          "position": 3,
+          "baseText": "If one is not extremely careful, somebody may come up from behind and strike him. Misfortune.",
+          "changingText": "Vulnerability invites attack. Thorough precautions are necessary."
+        },
+        {
+          "position": 4,
+          "baseText": "No blame. He meets him without passing by. Going brings danger. One must be on guard. Do not act. Be persevering.",
+          "changingText": "Restraint is required. Do not force an encounter. Wait."
+        },
+        {
+          "position": 5,
+          "baseText": "Dense clouds, no rain from our western territory. The prince shoots and hits him who is in the cave.",
+          "changingText": "Success comes from targeting the hidden problem. Aim true."
+        },
+        {
+          "position": 6,
+          "baseText": "He passes him by, not meeting him. The flying bird leaves him. Misfortune. This means bad luck and injury.",
+          "changingText": "Arrogance leads to overshooting the mark. Disaster follows."
+        }
+      ]
+    },
+    {
+      "number": 63,
+      "name": "After Completion (Ji Ji)",
+      "chineseName": "既濟",
+      "pinyin": "Jì Jì",
+      "judgment": "After Completion. Success in small matters. Perseverance furthers. At the beginning good fortune, at the end disorder.",
+      "image": "Water over fire: The image of After Completion. Thus the superior man takes thought of misfortune and arms himself against it in advance.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "He brakes his wheels. He gets his tail in the water. No blame.",
+          "changingText": "Caution at the moment of success prevents reversal. Stop before you go too far."
+        },
+        {
+          "position": 2,
+          "baseText": "The woman loses the curtain of her carriage. Do not run after it; on the seventh day you will get it.",
+          "changingText": "Losses now will be restored. Have patience and do not chase after what is gone."
+        },
+        {
+          "position": 3,
+          "baseText": "The Illustrious Ancestor disciplines the Devil's Country. After three years he conquers it. Inferior people must not be employed.",
+          "changingText": "Long, hard struggle leads to victory. Do not rely on unreliable people."
+        },
+        {
+          "position": 4,
+          "baseText": "The finest clothes turn to rags. Be careful all day long.",
+          "changingText": "Success is fragile. Constant vigilance is needed to maintain it."
+        },
+        {
+          "position": 5,
+          "baseText": "The neighbor in the east who slaughters an ox does not attain as much real happiness as the neighbor in the west with his small offering.",
+          "changingText": "Sincerity is worth more than lavish display. Humble success is better."
+        },
+        {
+          "position": 6,
+          "baseText": "He gets his head in the water. Danger.",
+          "changingText": "Overconfidence leads to drowning in your own success. Know your limits."
+        }
+      ]
+    },
+    {
+      "number": 64,
+      "name": "Before Completion (Wei Ji)",
+      "chineseName": "未濟",
+      "pinyin": "未濟",
+      "chineseName": "未濟",
+      "pinyin": "Wèi Jì",
+      "judgment": "Before Completion. Success. But if the little fox, after nearly completing the crossing, gets his tail in the water, there is nothing that would further.",
+      "image": "Fire over water: The image of Before Completion. Thus the superior man is careful in the differentiation of things so that each finds its place.",
+      "lines": [
+        {
+          "position": 1,
+          "baseText": "He gets his tail in the water. Humiliating.",
+          "changingText": "Rushing at the start leads to failure. Pace yourself."
+        },
+        {
+          "position": 2,
+          "baseText": "He brakes his wheels. Perseverance brings good fortune.",
+          "changingText": "Holding back strength for the right moment brings success."
+        },
+        {
+          "position": 3,
+          "baseText": "Before completion, attack brings misfortune. It furthers one to cross the great water.",
+          "changingText": "The time is not yet ripe for the final push. Wait for favorable conditions."
+        },
+        {
+          "position": 4,
+          "baseText": "Perseverance brings good fortune. Remorse disappears. Shock, thus to discipline the Devil's Country. For three years, great realms are rewarded.",
+          "changingText": "Persistent effort overcomes resistance and leads to great rewards."
+        },
+        {
+          "position": 5,
+          "baseText": "Perseverance brings good fortune. No remorse. The light of the superior man is true. Good fortune.",
+          "changingText": "Inner truth shines through and brings success. Trust your light."
+        },
+        {
+          "position": 6,
+          "baseText": "There is drinking of wine in genuine confidence. No blame. But if one wets his head, he loses it, in truth.",
+          "changingText": "Celebrate success, but do not lose control. Excess leads to loss."
+        }
+      ]
+    }
+  ]
+}

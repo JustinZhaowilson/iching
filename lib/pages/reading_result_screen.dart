@@ -1,20 +1,134 @@
 import 'package:flutter/material.dart';
+import 'package:iching/data/hexagram_repository.dart';
+import 'package:iching/data/reading_dao.dart';
 import 'package:nowa_runtime/nowa_runtime.dart';
-import 'package:iching/components/hexagram_widget.dart';
-import 'package:iching/hexagram_line.dart';
-import 'package:iching/line_type.dart';
+import 'package:iching/models/hexagram.dart';
+import 'package:iching/models/reading.dart';
+import 'package:iching/models/hex_line_type.dart';
+import 'package:iching/components/hexagram_comparison_section.dart';
+import 'package:iching/components/reading_question_input.dart';
+import 'package:iching/components/hexagram_interpretation_card.dart';
+import 'package:iching/components/changing_line_card.dart';
+import 'package:iching/components/reading_save_button.dart';
 
 @NowaGenerated()
-class ReadingResultScreen extends StatelessWidget {
+class ReadingResultScreen extends StatefulWidget {
   @NowaGenerated({'loader': 'auto-constructor'})
   const ReadingResultScreen({super.key});
 
   @override
+  State<ReadingResultScreen> createState() {
+    return _ReadingResultScreenState();
+  }
+}
+
+@NowaGenerated()
+class _ReadingResultScreenState extends State<ReadingResultScreen> {
+  bool _isInitialized = false;
+
+  final HexagramRepository _repo = HexagramRepository();
+
+  final ReadingDao _readingDao = ReadingDao();
+
+  final TextEditingController _questionController = TextEditingController();
+
+  bool _isFavorite = false;
+
+  bool _isSaved = false;
+
+  @override
+  void initState() {
+    super.initState();
+    _initRepo();
+  }
+
+  @override
+  void dispose() {
+    _questionController.dispose();
+    super.dispose();
+  }
+
+  Future<void> _initRepo() async {
+    if (!_repo.isInitialized) {
+      await _repo.initialize();
+    }
+    if (mounted) {
+      setState(() {
+        _isInitialized = true;
+      });
+    }
+  }
+
+  Future<void> _saveReading(Hexagram hexagram, Hexagram futureHexagram) async {
+    final reading = Reading(
+      lineValues: hexagram.lines.map((l) => l.type.numericValue).toList(),
+      primaryHex: hexagram.number,
+      futureHex: futureHexagram.number,
+      question: _questionController.text.trim().isEmpty
+          ? null
+          : _questionController.text.trim(),
+      isFavorite: _isFavorite,
+    );
+    await _readingDao.insertReading(reading);
+    if (mounted) {
+      setState(() {
+        _isSaved = true;
+      });
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text('Reading saved to journal!'),
+          backgroundColor: Color(0xFF3478F6),
+        ),
+      );
+    }
+  }
+
+  @override
   Widget build(BuildContext context) {
+    if (!_isInitialized) {
+      return const Scaffold(
+        backgroundColor: Color(0xFF0F1419),
+        body: Center(child: CircularProgressIndicator()),
+      );
+    }
+    final args =
+        ModalRoute.of(context)?.settings.arguments as Map<String, dynamic>? ??
+        {};
+    final lineValues = args['lineValues'] as List<int>? ?? [];
+    if (lineValues.isEmpty) {
+      return const Scaffold(
+        backgroundColor: Color(0xFF0F1419),
+        body: Center(
+          child: Text(
+            'No reading data provided',
+            style: TextStyle(color: Colors.white),
+          ),
+        ),
+      );
+    }
+    final hexLines = lineValues.map((v) {
+      switch (v) {
+        case 6:
+          return HexLineType.oldYin;
+        case 7:
+          return HexLineType.youngYang;
+        case 8:
+          return HexLineType.youngYin;
+        case 9:
+          return HexLineType.oldYang;
+        default:
+          return HexLineType.youngYang;
+      }
+    }).toList();
+    final hexagram = Hexagram.fromTypes(hexLines);
+    final futureHexagram = hexagram.deriveFuture();
+    final primaryMeta = _repo.getByNumber(hexagram.number);
+    final futureMeta = _repo.getByNumber(futureHexagram.number);
+    final changingIndices = hexagram.changingLineIndices;
     return Scaffold(
-      backgroundColor: const Color(0xff0f1419),
+      backgroundColor: const Color(0xFF0F1419),
       appBar: AppBar(
-        backgroundColor: const Color(0xff0f1419),
+        backgroundColor: const Color(0xFF0F1419),
         elevation: 0.0,
         leading: IconButton(
           icon: const Icon(Icons.arrow_back, color: Colors.white),
@@ -31,8 +145,17 @@ class ReadingResultScreen extends StatelessWidget {
         centerTitle: true,
         actions: [
           IconButton(
-            icon: const Icon(Icons.bookmark_border, color: Color(0xff8e9bae)),
-            onPressed: () {},
+            icon: Icon(
+              _isFavorite ? Icons.bookmark : Icons.bookmark_border,
+              color: _isFavorite
+                  ? const Color(0xFFFF9500)
+                  : const Color(0xFF8E9BAE),
+            ),
+            onPressed: () {
+              setState(() {
+                _isFavorite = !_isFavorite;
+              });
+            },
           ),
         ],
       ),
@@ -41,448 +164,69 @@ class ReadingResultScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const SizedBox(height: 24.0),
-            _buildHexagramSection(),
-            const SizedBox(height: 32.0),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20.0),
-              child: Text(
-                'Interpretation',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 28.0,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
+            HexagramComparisonSection(
+              primary: hexagram,
+              future: futureHexagram,
             ),
-            const SizedBox(height: 16.0),
-            _buildPrimaryHexagramCard(),
-            const SizedBox(height: 16.0),
-            _buildFutureHexagramCard(),
             const SizedBox(height: 32.0),
-            const Padding(
-              padding: EdgeInsets.symmetric(horizontal: 20.0),
-              child: Text(
-                'Changing Lines',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 28.0,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
+            ReadingQuestionInput(
+              controller: _questionController,
+              isSaved: _isSaved,
             ),
-            const SizedBox(height: 16.0),
-            _buildChangingLineCard(),
             const SizedBox(height: 24.0),
-            _buildSaveButton(context),
-            const SizedBox(height: 32.0),
-          ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildHexagramSection() {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20.0),
-      child: Row(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Expanded(
-            child: Column(
-              children: [
-                const Text(
-                  'PRESENT',
-                  style: TextStyle(
-                    color: Color(0xff8e9bae),
-                    fontSize: 12.0,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 1.5,
-                  ),
-                ),
-                const SizedBox(height: 16.0),
-                HexagramWidget(
-                  lines: [
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(type: LineType.solid),
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(
-                      type: LineType.solid,
-                      isChanging: true,
-                      changingColor: const Color(0xffff9500),
-                    ),
-                    HexagramLine(type: LineType.solid),
-                  ],
-                ),
-                const SizedBox(height: 12.0),
-                const Text(
-                  'Hex 4',
+            if (primaryMeta != null) ...[
+              const Padding(
+                padding: EdgeInsets.symmetric(horizontal: 20.0),
+                child: Text(
+                  'Interpretation',
                   style: TextStyle(
                     color: Colors.white,
-                    fontSize: 16.0,
+                    fontSize: 28.0,
                     fontWeight: FontWeight.w600,
                   ),
                 ),
-              ],
-            ),
-          ),
-          const SizedBox(width: 16.0),
-          const Icon(Icons.arrow_forward, color: Color(0xff3a4556), size: 28.0),
-          const SizedBox(width: 16.0),
-          Expanded(
-            child: Column(
-              children: [
-                const Text(
-                  'FUTURE',
-                  style: TextStyle(
-                    color: Color(0xff8e9bae),
-                    fontSize: 12.0,
-                    fontWeight: FontWeight.w600,
-                    letterSpacing: 1.5,
-                  ),
-                ),
-                const SizedBox(height: 16.0),
-                HexagramWidget(
-                  lines: [
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(type: LineType.broken),
-                    HexagramLine(
-                      type: LineType.solid,
-                      isChanging: true,
-                      changingColor: const Color(0xff3478f6),
-                    ),
-                    HexagramLine(type: LineType.solid),
-                  ],
-                ),
-                const SizedBox(height: 12.0),
-                const Text(
-                  'Hex 29',
-                  style: TextStyle(
-                    color: Colors.white,
-                    fontSize: 16.0,
-                    fontWeight: FontWeight.w600,
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildPrimaryHexagramCard() {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20.0),
-      padding: const EdgeInsets.all(20.0),
-      decoration: BoxDecoration(
-        color: const Color(0xff1c2630),
-        borderRadius: BorderRadius.circular(20.0),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10.0,
-                  vertical: 6.0,
-                ),
-                decoration: BoxDecoration(
-                  color: const Color(0xff2c3a4a),
-                  borderRadius: BorderRadius.circular(6.0),
-                ),
-                child: const Text(
-                  'PRIMARY',
-                  style: TextStyle(
-                    color: Color(0xff8e9bae),
-                    fontSize: 11.0,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 0.5,
-                  ),
-                ),
               ),
-              const SizedBox(width: 8.0),
-              const Text(
-                'Hexagram 4',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w600,
-                ),
+              const SizedBox(height: 16.0),
+              HexagramInterpretationCard(
+                meta: primaryMeta,
+                hexagram: hexagram,
+                changingIndices: changingIndices,
+                isPrimary: true,
               ),
-              const Spacer(),
-              Container(
-                width: 36.0,
-                height: 36.0,
-                decoration: BoxDecoration(
-                  color: const Color(0xff2c3a4a),
-                  borderRadius: BorderRadius.circular(10.0),
+              const SizedBox(height: 16.0),
+              if (futureMeta != null && changingIndices.isNotEmpty)
+                HexagramInterpretationCard(
+                  meta: futureMeta,
+                  hexagram: futureHexagram,
+                  changingIndices: const [],
+                  isPrimary: false,
                 ),
-                child: const Icon(
-                  Icons.eco_outlined,
-                  color: Color(0xff8e9bae),
-                  size: 20.0,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16.0),
-          const Text(
-            'Youthful Folly (Meng)',
-            style: TextStyle(
-              color: Color(0xff3478f6),
-              fontSize: 16.0,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-          const SizedBox(height: 12.0),
-          const Text(
-            'A mountain spring flows at the foot of a high mountain. The young fool seeks me. Success. It is advantageous to be firm and correct.',
-            style: TextStyle(
-              color: Color(0xff8e9bae),
-              fontSize: 15.0,
-              height: 1.5,
-            ),
-          ),
-          const SizedBox(height: 20.0),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xff3478f6),
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                elevation: 0.0,
-              ),
-              child: const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Text(
-                    'Read Full Meaning',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  SizedBox(width: 8.0),
-                  Icon(Icons.arrow_forward, size: 18.0),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildFutureHexagramCard() {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20.0),
-      padding: const EdgeInsets.all(20.0),
-      decoration: BoxDecoration(
-        color: const Color(0xff1c2630),
-        borderRadius: BorderRadius.circular(20.0),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                padding: const EdgeInsets.symmetric(
-                  horizontal: 10.0,
-                  vertical: 6.0,
-                ),
-                decoration: BoxDecoration(
-                  color: const Color(0xff1e3a5f),
-                  borderRadius: BorderRadius.circular(6.0),
-                ),
-                child: const Text(
-                  'FUTURE',
-                  style: TextStyle(
-                    color: Color(0xff3478f6),
-                    fontSize: 11.0,
-                    fontWeight: FontWeight.w700,
-                    letterSpacing: 0.5,
-                  ),
-                ),
-              ),
-              const SizedBox(width: 8.0),
-              const Text(
-                'Hexagram 29',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 18.0,
-                  fontWeight: FontWeight.w600,
-                ),
-              ),
-              const Spacer(),
-              Container(
-                width: 36.0,
-                height: 36.0,
-                decoration: BoxDecoration(
-                  color: const Color(0xff2c3a4a),
-                  borderRadius: BorderRadius.circular(10.0),
-                ),
-                child: const Icon(
-                  Icons.water_drop_outlined,
-                  color: Color(0xff8e9bae),
-                  size: 20.0,
-                ),
-              ),
-            ],
-          ),
-          const SizedBox(height: 16.0),
-          const Text(
-            'The Abysmal (Kan)',
-            style: TextStyle(
-              color: Color(0xff3478f6),
-              fontSize: 16.0,
-              fontWeight: FontWeight.w600,
-            ),
-          ),
-          const SizedBox(height: 12.0),
-          const Text(
-            'Water flows on uninterruptedly and reaches its goal. If you are sincere, you have success in your heart, and whatever you do succeeds.',
-            style: TextStyle(
-              color: Color(0xff8e9bae),
-              fontSize: 15.0,
-              height: 1.5,
-            ),
-          ),
-          const SizedBox(height: 20.0),
-          SizedBox(
-            width: double.infinity,
-            child: ElevatedButton(
-              onPressed: () {},
-              style: ElevatedButton.styleFrom(
-                backgroundColor: const Color(0xff2c3a4a),
-                foregroundColor: Colors.white,
-                padding: const EdgeInsets.symmetric(vertical: 16.0),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12.0),
-                ),
-                elevation: 0.0,
-              ),
-              child: const Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: const [
-                  Text(
-                    'Read Full Meaning',
-                    style: TextStyle(
-                      fontSize: 16.0,
-                      fontWeight: FontWeight.w600,
-                    ),
-                  ),
-                  SizedBox(width: 8.0),
-                  Icon(Icons.arrow_forward, size: 18.0),
-                ],
-              ),
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildChangingLineCard() {
-    return Container(
-      margin: const EdgeInsets.symmetric(horizontal: 20.0),
-      padding: const EdgeInsets.all(20.0),
-      decoration: BoxDecoration(
-        color: const Color(0xff2a2418),
-        borderRadius: BorderRadius.circular(20.0),
-        border: Border.all(color: const Color(0xff4a3a28), width: 1.5),
-      ),
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Row(
-            children: [
-              Container(
-                width: 28.0,
-                height: 28.0,
-                decoration: const BoxDecoration(
-                  color: Color(0xffff9500),
-                  shape: BoxShape.circle,
-                ),
-                child: const Center(
+              const SizedBox(height: 32.0),
+              if (changingIndices.isNotEmpty) ...[
+                const Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20.0),
                   child: Text(
-                    '6',
+                    'Changing Lines',
                     style: TextStyle(
                       color: Colors.white,
-                      fontSize: 14.0,
-                      fontWeight: FontWeight.bold,
+                      fontSize: 28.0,
+                      fontWeight: FontWeight.w600,
                     ),
                   ),
                 ),
-              ),
-              const SizedBox(width: 12.0),
-              const Text(
-                'Line 5 (6 at 5th place)',
-                style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 16.0,
-                  fontWeight: FontWeight.w600,
+                const SizedBox(height: 16.0),
+                ...changingIndices.map(
+                  (idx) => ChangingLineCard(index: idx, meta: primaryMeta),
                 ),
-              ),
+              ],
             ],
-          ),
-          const SizedBox(height: 16.0),
-          const Text(
-            '"Childlike folly brings good fortune."',
-            style: TextStyle(color: Colors.white, fontSize: 15.0, height: 1.5),
-          ),
-          const SizedBox(height: 8.0),
-          const Text(
-            'This implies an attitude of openness and lack of prejudice.',
-            style: TextStyle(
-              color: Color(0xff8e9bae),
-              fontSize: 14.0,
-              fontStyle: FontStyle.italic,
-              height: 1.5,
+            const SizedBox(height: 24.0),
+            ReadingSaveButton(
+              isSaved: _isSaved,
+              onSave: () => _saveReading(hexagram, futureHexagram),
             ),
-          ),
-        ],
-      ),
-    );
-  }
-
-  Widget _buildSaveButton(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.symmetric(horizontal: 20.0),
-      child: SizedBox(
-        width: double.infinity,
-        child: ElevatedButton(
-          onPressed: () {},
-          style: ElevatedButton.styleFrom(
-            backgroundColor: Colors.white,
-            foregroundColor: Colors.black,
-            padding: const EdgeInsets.symmetric(vertical: 18.0),
-            shape: RoundedRectangleBorder(
-              borderRadius: BorderRadius.circular(16.0),
-            ),
-            elevation: 0.0,
-          ),
-          child: const Row(
-            mainAxisAlignment: MainAxisAlignment.center,
-            children: const [
-              Icon(Icons.bookmark, size: 20.0),
-              SizedBox(width: 10.0),
-              Text(
-                'Save to Journal',
-                style: TextStyle(fontSize: 17.0, fontWeight: FontWeight.w600),
-              ),
-            ],
-          ),
+            const SizedBox(height: 32.0),
+          ],
         ),
       ),
     );
